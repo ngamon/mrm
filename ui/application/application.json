@@ -1,0 +1,130 @@
+{
+   "description": "Reduce model risk and increase business value.",
+   "displayName": "SAS® Model Risk Management",
+   "events": {
+      "onFirstLoad": {
+         "name": "onFirstLoad"
+      }
+   },
+   "helpUrl": "https://documentation.sas.com/?softwareId=mrmmid\u0026softwareVersion=v_001\u0026requestor=inapp\u0026locale={locale}",
+   "home": "Home",
+   "id": "MRM",
+   "libraries": [
+      "CirrusMRM"
+   ],
+   "menu": [
+      {
+         "icon": "base://GROOVE_HOME",
+         "id": "home",
+         "pageId": "Home",
+         "type": "item"
+      },
+      {
+         "icon": "base://BANNER_SEARCH",
+         "id": "Search",
+         "pageId": "Search",
+         "type": "item"
+      },
+      {
+         "id": "modelDevelopmentGroup",
+         "type": "group"
+      },
+      {
+         "icon": "base://GROOVE_MODELS",
+         "id": "models",
+         "pageId": "ModelInventory",
+         "type": "item"
+      },
+      {
+         "icon": "base://GROOVE_MODEL_REVIEW",
+         "id": "modelReviews",
+         "pageId": "ModelReviews",
+         "type": "item"
+      },
+      {
+         "icon": "base://GROOVE_ISSUE",
+         "id": "findings",
+         "pageId": "Findings",
+         "type": "item"
+      },
+      {
+         "id": "settingsGroup",
+         "type": "group"
+      },
+      {
+         "icon": "base://GROOVE_SOURCE_DATABASE",
+         "id": "DataLoad",
+         "pageId": "DataLoad",
+         "type": "item"
+      }
+   ],
+   "pages": {
+      "DataLoad": {
+         "isTemplate": false,
+         "name": "DataLoad",
+         "type": "application"
+      },
+      "Finding": {
+         "name": "Finding",
+         "object": "Finding",
+         "type": "object"
+      },
+      "Findings": {
+         "isTemplate": false,
+         "name": "Findings",
+         "type": "application"
+      },
+      "Home": {
+         "name": "Home Page",
+         "type": "application"
+      },
+      "Model": {
+         "name": "Model",
+         "object": "Model",
+         "type": "object"
+      },
+      "ModelCard": {
+         "isTemplate": false,
+         "name": "Model Card",
+         "object": "Model",
+         "type": "object"
+      },
+      "ModelInventory": {
+         "isTemplate": false,
+         "name": "Model Inventory",
+         "type": "application"
+      },
+      "ModelReview": {
+         "isTemplate": false,
+         "name": "Model Review",
+         "object": "ModelReview",
+         "type": "object"
+      },
+      "ModelReviews": {
+         "isTemplate": false,
+         "name": "Model Reviews",
+         "type": "application"
+      },
+      "ModelScorecard": {
+         "isTemplate": true,
+         "name": "Model Scorecard",
+         "object": "Model",
+         "type": "object"
+      },
+      "ObjectManagerTemplate": {
+         "isTemplate": true,
+         "name": "Object Manager Template",
+         "type": "application"
+      },
+      "Search": {
+         "isTemplate": false,
+         "name": "Search",
+         "type": "application",
+         "urlRx": "/^\\/Search\\/searchId\\/[^/]+/"
+      }
+   },
+   "path": "/MRM",
+   "schema": "MRM",
+   "verb": "Govern Model Risk",
+   "version": "202114"
+}

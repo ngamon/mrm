@@ -1,0 +1,13 @@
+{
+   "Finding.Finding.schema.field.status_1.label": "結果状態",
+   "Finding.library.label.base.Accordion.classifications_accordion.0.title": "分類",
+   "Finding.library.label.base.Button.save_button.label": "保存",
+   "Finding.library.label.base.Image.Image.label": "イメージ",
+   "Finding.library.label.base.RichText.finding_name_header.label": "リッチテキスト",
+   "Finding.library.label.base.TabView.TabView.0.title": "詳細",
+   "Finding.library.label.base.TabView.TabView.1.title": "チーム",
+   "Finding.library.label.base.TabView.TabView.2.title": "関連オブジェクト",
+   "Finding.library.label.base.TabView.TabView.3.title": "ドキュメント",
+   "Finding.schema.name.plural.title": "結果",
+   "Finding.schema.name.singular.title": "結果"
+}

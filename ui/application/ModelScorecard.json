@@ -1,0 +1,1498 @@
+{
+   "layouts": {
+      "base": [
+         {
+            "h": 875,
+            "i": "scorecard_container",
+            "minH": 50,
+            "minW": 2,
+            "moved": false,
+            "static": false,
+            "w": 12,
+            "x": 0,
+            "y": 2
+         }
+      ],
+      "card_overlay_container": [
+         [],
+         [
+            {
+               "h": 65,
+               "i": "overlay_warning_icon",
+               "minH": 1,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 3,
+               "x": 0,
+               "y": 0
+            },
+            {
+               "h": 24,
+               "i": "overlay_warning_msg",
+               "minH": 24,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 9,
+               "x": 3,
+               "y": 23
+            }
+         ]
+      ],
+      "ok_cancel_container": [
+         [
+            {
+               "h": 26,
+               "i": "ok_button",
+               "minH": 26,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 2,
+               "x": 6,
+               "y": 0
+            },
+            {
+               "h": 26,
+               "i": "cancel_button",
+               "minH": 26,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 2,
+               "x": 8,
+               "y": 0
+            }
+         ]
+      ],
+      "overlay_scorecard_container_1": [
+         [
+            {
+               "h": 24,
+               "i": "has_overlay",
+               "minH": 24,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 9,
+               "x": 0,
+               "y": 0
+            }
+         ]
+      ],
+      "overlay_scorecard_container_2": [
+         [
+            {
+               "h": 50,
+               "i": "overlay_applied",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 5,
+               "x": 0,
+               "y": 0
+            },
+            {
+               "h": 50,
+               "i": "overlay_valid_to",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 5,
+               "x": 0,
+               "y": 51
+            },
+            {
+               "h": 50,
+               "i": "overlay_applier",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 5,
+               "x": 0,
+               "y": 101
+            },
+            {
+               "h": 148,
+               "i": "reason_for_overlay",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 7,
+               "x": 5,
+               "y": 0
+            }
+         ]
+      ],
+      "overlay_scorecard_container_3": [
+         [
+            {
+               "h": 24,
+               "i": "is_overlay_reviewed",
+               "minH": 24,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 12,
+               "x": 0,
+               "y": 0
+            }
+         ]
+      ],
+      "overlay_scorecard_container_4": [
+         [
+            {
+               "h": 50,
+               "i": "overlay_reviewer",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 5,
+               "x": 0,
+               "y": 0
+            }
+         ]
+      ],
+      "scorecard_container": [
+         [
+            {
+               "h": 26,
+               "i": "vote_button",
+               "minH": 26,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 1,
+               "x": 1,
+               "y": 263
+            },
+            {
+               "h": 240,
+               "i": "ModelWellness_1",
+               "minH": 30,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 4,
+               "x": 0,
+               "y": 0
+            },
+            {
+               "h": 50,
+               "i": "name",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 4,
+               "x": 4,
+               "y": 0
+            },
+            {
+               "h": 102,
+               "i": "description",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 4,
+               "x": 4,
+               "y": 100
+            },
+            {
+               "h": 50,
+               "i": "criticality",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 2,
+               "x": 4,
+               "y": 50
+            },
+            {
+               "h": 50,
+               "i": "materiality",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 2,
+               "x": 6,
+               "y": 50
+            },
+            {
+               "h": 402,
+               "i": "scorecard_tabs",
+               "minH": 50,
+               "minW": 2,
+               "moved": false,
+               "static": false,
+               "w": 12,
+               "x": 0,
+               "y": 318
+            },
+            {
+               "h": 85,
+               "i": "card_overlay_container",
+               "minH": 50,
+               "minW": 2,
+               "moved": false,
+               "static": false,
+               "w": 4,
+               "x": 4,
+               "y": 231
+            },
+            {
+               "h": 20,
+               "i": "Image",
+               "minH": 1,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 4,
+               "x": 4,
+               "y": 203
+            },
+            {
+               "h": 20,
+               "i": "Image_1",
+               "minH": 1,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 4,
+               "x": 0,
+               "y": 294
+            }
+         ],
+         [
+            {
+               "h": 102,
+               "i": "voting_as_container",
+               "minH": 50,
+               "minW": 2,
+               "moved": false,
+               "static": false,
+               "w": 6,
+               "x": 0,
+               "y": 71
+            },
+            {
+               "h": 229,
+               "i": "voting_container",
+               "minH": 50,
+               "minW": 2,
+               "moved": false,
+               "static": false,
+               "w": 6,
+               "x": 0,
+               "y": 184
+            },
+            {
+               "h": 50,
+               "i": "ok_cancel_container",
+               "minH": 50,
+               "minW": 2,
+               "moved": false,
+               "static": false,
+               "w": 6,
+               "x": 0,
+               "y": 415
+            },
+            {
+               "h": 50,
+               "i": "Image_7",
+               "minH": 1,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 12,
+               "x": 0,
+               "y": 10
+            }
+         ]
+      ],
+      "scorecard_tabs": [
+         [
+            {
+               "h": 50,
+               "i": "objectId",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 4,
+               "x": 0,
+               "y": 0
+            },
+            {
+               "h": 50,
+               "i": "version",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 4,
+               "x": 4,
+               "y": 0
+            },
+            {
+               "h": 50,
+               "i": "modelStatus",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 8,
+               "x": 0,
+               "y": 50
+            },
+            {
+               "h": 50,
+               "i": "model_usage_details",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 4,
+               "x": 0,
+               "y": 100
+            },
+            {
+               "h": 50,
+               "i": "owner_notes",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 4,
+               "x": 4,
+               "y": 100
+            },
+            {
+               "h": 50,
+               "i": "primary_contact",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 4,
+               "x": 4,
+               "y": 150
+            },
+            {
+               "h": 50,
+               "i": "latest_attestation",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 4,
+               "x": 0,
+               "y": 150
+            }
+         ],
+         [
+            {
+               "h": 50,
+               "i": "latest_risk_assessment",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 4,
+               "x": 0,
+               "y": 0
+            },
+            {
+               "h": 50,
+               "i": "inherent_risk_rating",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 4,
+               "x": 0,
+               "y": 51
+            },
+            {
+               "h": 50,
+               "i": "residual_risk_rating",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 4,
+               "x": 0,
+               "y": 101
+            },
+            {
+               "h": 50,
+               "i": "risk_tier",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 4,
+               "x": 4,
+               "y": 51
+            },
+            {
+               "h": 50,
+               "i": "control_score",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 4,
+               "x": 4,
+               "y": 101
+            }
+         ],
+         [
+            {
+               "h": 50,
+               "i": "latest_validation",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 4,
+               "x": 0,
+               "y": 0
+            },
+            {
+               "h": 50,
+               "i": "next_validation",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 4,
+               "x": 4,
+               "y": 0
+            },
+            {
+               "h": 24,
+               "i": "days_since_last_validation",
+               "minH": 24,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 4,
+               "x": 4,
+               "y": 50
+            },
+            {
+               "h": 50,
+               "i": "latest_validation_rating",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 4,
+               "x": 0,
+               "y": 50
+            }
+         ],
+         [
+            {
+               "h": 110,
+               "i": "upstream_models",
+               "minH": 50,
+               "minW": 4,
+               "moved": false,
+               "static": false,
+               "w": 12,
+               "x": 0,
+               "y": 0
+            },
+            {
+               "h": 110,
+               "i": "downstream_models",
+               "minH": 50,
+               "minW": 4,
+               "moved": false,
+               "static": false,
+               "w": 12,
+               "x": 0,
+               "y": 110
+            }
+         ],
+         [
+            {
+               "h": 50,
+               "i": "overlay_scorecard_container_1",
+               "minH": 50,
+               "minW": 2,
+               "moved": false,
+               "static": false,
+               "w": 8,
+               "x": 0,
+               "y": 0
+            },
+            {
+               "h": 177,
+               "i": "overlay_scorecard_container_2",
+               "minH": 50,
+               "minW": 2,
+               "moved": false,
+               "static": false,
+               "w": 8,
+               "x": 0,
+               "y": 50
+            },
+            {
+               "h": 50,
+               "i": "overlay_scorecard_container_3",
+               "minH": 50,
+               "minW": 2,
+               "moved": false,
+               "static": false,
+               "w": 8,
+               "x": 0,
+               "y": 227
+            },
+            {
+               "h": 70,
+               "i": "overlay_scorecard_container_4",
+               "minH": 50,
+               "minW": 2,
+               "moved": false,
+               "static": false,
+               "w": 8,
+               "x": 0,
+               "y": 277
+            }
+         ]
+      ],
+      "voting_as_container": [
+         [],
+         [
+            {
+               "h": 50,
+               "i": "voting_as",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 6,
+               "x": 0,
+               "y": 0
+            }
+         ]
+      ],
+      "voting_container": [
+         [
+            {
+               "h": 24,
+               "i": "voting_group_msg",
+               "minH": 24,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 10,
+               "x": 1,
+               "y": 163
+            },
+            {
+               "h": 151,
+               "i": "voting_zero_state_image",
+               "minH": 1,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 7,
+               "x": 0,
+               "y": 0
+            }
+         ],
+         [
+            {
+               "h": 50,
+               "i": "model_owner_vote",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 6,
+               "x": 0,
+               "y": 0
+            },
+            {
+               "h": 50,
+               "i": "owner_vote_reason",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 10,
+               "x": 0,
+               "y": 51
+            }
+         ],
+         [
+            {
+               "h": 50,
+               "i": "mrmg_vote",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 6,
+               "x": 0,
+               "y": 0
+            },
+            {
+               "h": 50,
+               "i": "mrmg_vote_reason",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 10,
+               "x": 0,
+               "y": 51
+            }
+         ],
+         [
+            {
+               "h": 50,
+               "i": "auditor_vote",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 6,
+               "x": 0,
+               "y": 0
+            },
+            {
+               "h": 50,
+               "i": "audit_vote_reason",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 10,
+               "x": 0,
+               "y": 51
+            }
+         ]
+      ]
+   },
+   "page": {
+      "entrypoints": {
+         "onPageLoad": {
+            "name": "onDraftLoad"
+         }
+      },
+      "events": {
+         "onTabClose": {}
+      },
+      "props": {
+         "description": "",
+         "icon": "base://MODEL",
+         "id": "ModelScorecard",
+         "label": "Model Scorecard"
+      }
+   },
+   "structure": {
+      "base": [
+         {
+            "compName": "GroupableContainer",
+            "id": "scorecard_container",
+            "label": "appbuilder.toolboxitem.groupableContainer.title",
+            "libName": "base",
+            "parentId": "base",
+            "props": {
+               "activeIndex": 0,
+               "headers": [
+                  "default",
+                  "voting_layout"
+               ]
+            }
+         }
+      ],
+      "card_overlay_container": [
+         [],
+         [
+            {
+               "compName": "Image",
+               "id": "overlay_warning_icon",
+               "label": "appbuilder.toolboxitem.image.title",
+               "libName": "base",
+               "parentId": "card_overlay_container",
+               "props": {
+                  "imageUri": "base://importantStatus"
+               }
+            },
+            {
+               "compName": "ReadonlyFieldWidget",
+               "id": "overlay_warning_msg",
+               "label": "appbuilder.toolboxitem.readonlyfield.title",
+               "libName": "base",
+               "parentId": "card_overlay_container",
+               "props": {}
+            }
+         ]
+      ],
+      "ok_cancel_container": [
+         [
+            {
+               "compName": "Button",
+               "events": {
+                  "click": {
+                     "name": "onOKClick"
+                  }
+               },
+               "id": "ok_button",
+               "label": "appbuilder.toolboxitem.button.title",
+               "libName": "base",
+               "parentId": "ok_cancel_container",
+               "props": {
+                  "secondary": false
+               }
+            },
+            {
+               "compName": "Button",
+               "events": {
+                  "click": {
+                     "name": "onCancelClick"
+                  }
+               },
+               "id": "cancel_button",
+               "label": "appbuilder.toolboxitem.button.title",
+               "libName": "base",
+               "parentId": "ok_cancel_container",
+               "props": {
+                  "secondary": true
+               }
+            }
+         ]
+      ],
+      "overlay_scorecard_container_1": [
+         [
+            {
+               "compName": "CheckboxField",
+               "events": {},
+               "fieldName": "has_overlay",
+               "id": "has_overlay",
+               "libName": "base",
+               "parentId": "overlay_scorecard_container_1",
+               "props": {}
+            }
+         ]
+      ],
+      "overlay_scorecard_container_2": [
+         [
+            {
+               "compName": "Calendar",
+               "fieldName": "overlay_applied",
+               "id": "overlay_applied",
+               "libName": "base",
+               "parentId": "overlay_scorecard_container_2",
+               "props": {}
+            },
+            {
+               "compName": "Calendar",
+               "fieldName": "overlay_valid_to",
+               "id": "overlay_valid_to",
+               "libName": "base",
+               "parentId": "overlay_scorecard_container_2",
+               "props": {}
+            },
+            {
+               "compName": "InputText",
+               "fieldName": "overlay_applier",
+               "id": "overlay_applier",
+               "libName": "base",
+               "parentId": "overlay_scorecard_container_2",
+               "props": {}
+            },
+            {
+               "compName": "InputTextarea",
+               "fieldName": "reason_for_overlay",
+               "id": "reason_for_overlay",
+               "libName": "base",
+               "parentId": "overlay_scorecard_container_2",
+               "props": {
+                  "rows": 6
+               }
+            }
+         ]
+      ],
+      "overlay_scorecard_container_3": [
+         [
+            {
+               "compName": "CheckboxField",
+               "events": {},
+               "fieldName": "is_overlay_reviewed",
+               "id": "is_overlay_reviewed",
+               "libName": "base",
+               "parentId": "overlay_scorecard_container_3",
+               "props": {}
+            }
+         ]
+      ],
+      "overlay_scorecard_container_4": [
+         [
+            {
+               "compName": "InputText",
+               "fieldName": "overlay_reviewer",
+               "id": "overlay_reviewer",
+               "libName": "base",
+               "parentId": "overlay_scorecard_container_4",
+               "props": {}
+            }
+         ]
+      ],
+      "scorecard_container": [
+         [
+            {
+               "compName": "Button",
+               "events": {
+                  "click": {
+                     "name": "onVoteClick"
+                  }
+               },
+               "id": "vote_button",
+               "label": "appbuilder.toolboxitem.button.title",
+               "libName": "base",
+               "parentId": "scorecard_container",
+               "props": {}
+            },
+            {
+               "compName": "ModelWellness",
+               "id": "ModelWellness_1",
+               "label": "appbuilder.toolboxitem.modelwellness.title",
+               "libName": "base",
+               "parentId": "scorecard_container",
+               "props": {
+                  "segmentsConfig": [
+                     {
+                        "config": [
+                           {
+                              "color": "15B57B",
+                              "label": "Good",
+                              "value": "GOOD"
+                           },
+                           {
+                              "color": "FFCC32",
+                              "label": "Fair",
+                              "value": "FAIR"
+                           },
+                           {
+                              "color": "DD5757",
+                              "label": "Poor",
+                              "value": "POOR"
+                           }
+                        ],
+                        "id": "model_owner_vote"
+                     },
+                     {
+                        "config": [
+                           {
+                              "color": "15B57B",
+                              "label": "Good",
+                              "value": "GOOD"
+                           },
+                           {
+                              "color": "FFCC32",
+                              "label": "Fair",
+                              "value": "FAIR"
+                           },
+                           {
+                              "color": "DD5757",
+                              "label": "Poor",
+                              "value": "POOR"
+                           }
+                        ],
+                        "id": "mrmg_vote"
+                     },
+                     {
+                        "config": [
+                           {
+                              "color": "15B57B",
+                              "label": "Good",
+                              "value": "GOOD"
+                           },
+                           {
+                              "color": "FFCC32",
+                              "label": "Fair",
+                              "value": "FAIR"
+                           },
+                           {
+                              "color": "DD5757",
+                              "label": "Poor",
+                              "value": "POOR"
+                           }
+                        ],
+                        "id": "auditor_vote"
+                     }
+                  ],
+                  "showLegend": true
+               }
+            },
+            {
+               "compName": "InputText",
+               "events": {},
+               "fieldName": "name",
+               "id": "name",
+               "libName": "base",
+               "parentId": "scorecard_container",
+               "props": {}
+            },
+            {
+               "compName": "InputTextarea",
+               "fieldName": "description",
+               "id": "description",
+               "libName": "base",
+               "parentId": "scorecard_container",
+               "props": {
+                  "rows": 6
+               }
+            },
+            {
+               "compName": "ColorDropdown",
+               "fieldName": "criticality",
+               "id": "criticality",
+               "libName": "base",
+               "parentId": "scorecard_container",
+               "props": {}
+            },
+            {
+               "compName": "ColorDropdown",
+               "fieldName": "materiality",
+               "id": "materiality",
+               "libName": "base",
+               "parentId": "scorecard_container",
+               "props": {}
+            },
+            {
+               "compName": "TabView",
+               "id": "scorecard_tabs",
+               "label": "appbuilder.toolboxitem.tabview.title",
+               "libName": "base",
+               "parentId": "scorecard_container",
+               "props": {
+                  "activeIndex": 3
+               }
+            },
+            {
+               "compName": "GroupableContainer",
+               "id": "card_overlay_container",
+               "label": "appbuilder.toolboxitem.groupableContainer.title",
+               "libName": "base",
+               "parentId": "scorecard_container",
+               "props": {
+                  "activeIndex": 1,
+                  "headers": [
+                     "default",
+                     "overlay_layout"
+                  ]
+               }
+            },
+            {
+               "compName": "Image",
+               "id": "Image",
+               "label": "appbuilder.toolboxitem.image.title",
+               "libName": "base",
+               "parentId": "scorecard_container",
+               "props": {}
+            },
+            {
+               "compName": "Image",
+               "id": "Image_1",
+               "label": "appbuilder.toolboxitem.image.title",
+               "libName": "base",
+               "parentId": "scorecard_container",
+               "props": {}
+            }
+         ],
+         [
+            {
+               "compName": "GroupableContainer",
+               "id": "voting_as_container",
+               "label": "appbuilder.toolboxitem.groupableContainer.title",
+               "libName": "base",
+               "parentId": "scorecard_container",
+               "props": {
+                  "activeIndex": 1,
+                  "headers": [
+                     "default",
+                     "VOTING_AS_LAYOUT"
+                  ]
+               }
+            },
+            {
+               "compName": "GroupableContainer",
+               "id": "voting_container",
+               "label": "appbuilder.toolboxitem.groupableContainer.title",
+               "libName": "base",
+               "parentId": "scorecard_container",
+               "props": {
+                  "activeIndex": 3,
+                  "headers": [
+                     "default",
+                     "MRMModelOwners",
+                     "MRMMRMG",
+                     "MRMAuditors"
+                  ]
+               }
+            },
+            {
+               "compName": "GroupableContainer",
+               "id": "ok_cancel_container",
+               "label": "appbuilder.toolboxitem.groupableContainer.title",
+               "libName": "base",
+               "parentId": "scorecard_container",
+               "props": {
+                  "activeIndex": 0,
+                  "headers": [
+                     "default"
+                  ]
+               }
+            },
+            {
+               "compName": "Image",
+               "id": "Image_7",
+               "label": "appbuilder.toolboxitem.image.title",
+               "libName": "base",
+               "parentId": "scorecard_container",
+               "props": {}
+            }
+         ]
+      ],
+      "scorecard_tabs": [
+         [
+            {
+               "compName": "InputText",
+               "fieldName": "objectId",
+               "id": "objectId",
+               "libName": "base",
+               "parentId": "scorecard_tabs",
+               "props": {}
+            },
+            {
+               "compName": "InputText",
+               "fieldName": "version",
+               "id": "version",
+               "libName": "base",
+               "parentId": "scorecard_tabs",
+               "props": {}
+            },
+            {
+               "compName": "Dropdown",
+               "fieldName": "modelStatus",
+               "id": "modelStatus",
+               "libName": "base",
+               "parentId": "scorecard_tabs",
+               "props": {
+                  "colon": true,
+                  "displayAsText": true
+               }
+            },
+            {
+               "compName": "InputTextarea",
+               "fieldName": "model_usage_details",
+               "id": "model_usage_details",
+               "libName": "base",
+               "parentId": "scorecard_tabs",
+               "props": {
+                  "rows": 6
+               }
+            },
+            {
+               "compName": "InputTextarea",
+               "fieldName": "owner_notes",
+               "id": "owner_notes",
+               "libName": "base",
+               "parentId": "scorecard_tabs",
+               "props": {
+                  "rows": 6
+               }
+            },
+            {
+               "compName": "InputText",
+               "fieldName": "primary_contact",
+               "id": "primary_contact",
+               "libName": "base",
+               "parentId": "scorecard_tabs",
+               "props": {}
+            },
+            {
+               "compName": "Calendar",
+               "fieldName": "latest_attestation",
+               "id": "latest_attestation",
+               "libName": "base",
+               "parentId": "scorecard_tabs",
+               "props": {}
+            }
+         ],
+         [
+            {
+               "compName": "Calendar",
+               "fieldName": "latest_risk_assessment",
+               "id": "latest_risk_assessment",
+               "libName": "base",
+               "parentId": "scorecard_tabs",
+               "props": {}
+            },
+            {
+               "compName": "ColorDropdown",
+               "fieldName": "inherent_risk_rating",
+               "id": "inherent_risk_rating",
+               "libName": "base",
+               "parentId": "scorecard_tabs",
+               "props": {}
+            },
+            {
+               "compName": "ColorDropdown",
+               "fieldName": "residual_risk_rating",
+               "id": "residual_risk_rating",
+               "libName": "base",
+               "parentId": "scorecard_tabs",
+               "props": {}
+            },
+            {
+               "compName": "ColorDropdown",
+               "fieldName": "risk_tier",
+               "id": "risk_tier",
+               "libName": "base",
+               "parentId": "scorecard_tabs",
+               "props": {}
+            },
+            {
+               "compName": "ColorDropdown",
+               "fieldName": "control_score",
+               "id": "control_score",
+               "libName": "base",
+               "parentId": "scorecard_tabs",
+               "props": {}
+            }
+         ],
+         [
+            {
+               "compName": "CalendarWidget",
+               "id": "latest_validation",
+               "label": "appbuilder.toolboxitem.calendar.title",
+               "libName": "base",
+               "parentId": "scorecard_tabs",
+               "props": {}
+            },
+            {
+               "compName": "CalendarWidget",
+               "id": "next_validation",
+               "label": "appbuilder.toolboxitem.calendar.title",
+               "libName": "base",
+               "parentId": "scorecard_tabs",
+               "props": {}
+            },
+            {
+               "compName": "ReadonlyFieldWidget",
+               "id": "days_since_last_validation",
+               "label": "appbuilder.toolboxitem.readonlyfield.title",
+               "libName": "base",
+               "parentId": "scorecard_tabs",
+               "props": {
+                  "boldValue": true,
+                  "stacked": true
+               }
+            },
+            {
+               "compName": "ColorDropdownWidget",
+               "id": "latest_validation_rating",
+               "label": "appbuilder.toolboxitem.colorDropdown.title",
+               "libName": "base",
+               "parentId": "scorecard_tabs",
+               "props": {
+                  "colors": [
+                     {
+                        "color": "#ff4d4d",
+                        "value": "RED"
+                     },
+                     {
+                        "color": "#ffb829",
+                        "value": "YELLOW"
+                     },
+                     {
+                        "color": "#0eaa18",
+                        "value": "GREEN"
+                     },
+                     {
+                        "color": "#b1b8c3",
+                        "value": "INPROGRESS"
+                     }
+                  ],
+                  "options": [
+                     {
+                        "label": "Unfit for intended use",
+                        "value": "RED"
+                     },
+                     {
+                        "label": "Fit for intended use with conditions",
+                        "value": "YELLOW"
+                     },
+                     {
+                        "label": "Fit for intended use",
+                        "value": "GREEN"
+                     },
+                     {
+                        "label": "Not yet rated",
+                        "value": "INPROGRESS"
+                     }
+                  ]
+               }
+            }
+         ],
+         [
+            {
+               "compName": "RGFRelationshipContainer",
+               "events": {
+                  "getDraftLink": {
+                     "name": "getDraftLinkForNewUpstreamModel"
+                  },
+                  "getEditLinkForObjectInstance": {
+                     "name": "getEditLinkForObjectInstance"
+                  }
+               },
+               "fieldName": "upstream_models",
+               "id": "upstream_models",
+               "libName": "base",
+               "parentId": "scorecard_tabs",
+               "props": {}
+            },
+            {
+               "compName": "RGFRelationshipContainer",
+               "events": {
+                  "getDraftLink": {
+                     "name": "getDraftLinkForNewDownstreamModel"
+                  },
+                  "getEditLinkForObjectInstance": {
+                     "name": "getEditLinkForObjectInstance"
+                  }
+               },
+               "fieldName": "downstream_models",
+               "id": "downstream_models",
+               "libName": "base",
+               "parentId": "scorecard_tabs",
+               "props": {}
+            }
+         ],
+         [
+            {
+               "compName": "GroupableContainer",
+               "id": "overlay_scorecard_container_1",
+               "label": "appbuilder.toolboxitem.groupableContainer.title",
+               "libName": "base",
+               "parentId": "scorecard_tabs",
+               "props": {
+                  "activeIndex": 0,
+                  "headers": [
+                     "default"
+                  ]
+               }
+            },
+            {
+               "compName": "GroupableContainer",
+               "id": "overlay_scorecard_container_2",
+               "label": "appbuilder.toolboxitem.groupableContainer.title",
+               "libName": "base",
+               "parentId": "scorecard_tabs",
+               "props": {
+                  "activeIndex": 0,
+                  "headers": [
+                     "default"
+                  ]
+               }
+            },
+            {
+               "compName": "GroupableContainer",
+               "id": "overlay_scorecard_container_3",
+               "label": "appbuilder.toolboxitem.groupableContainer.title",
+               "libName": "base",
+               "parentId": "scorecard_tabs",
+               "props": {
+                  "activeIndex": 0,
+                  "headers": [
+                     "default"
+                  ]
+               }
+            },
+            {
+               "compName": "GroupableContainer",
+               "id": "overlay_scorecard_container_4",
+               "label": "appbuilder.toolboxitem.groupableContainer.title",
+               "libName": "base",
+               "parentId": "scorecard_tabs",
+               "props": {
+                  "activeIndex": 0,
+                  "headers": [
+                     "default"
+                  ]
+               }
+            }
+         ]
+      ],
+      "voting_as_container": [
+         [],
+         [
+            {
+               "compName": "DropdownWidget",
+               "events": {
+                  "onChange": {
+                     "name": "onVotingAsChange"
+                  }
+               },
+               "id": "voting_as",
+               "label": "appbuilder.toolboxitem.dropdown.title",
+               "libName": "base",
+               "parentId": "voting_as_container",
+               "props": {
+                  "enableClear": true,
+                  "options": [
+                     {
+                        "label": "Model owner",
+                        "value": "MRMModelOwners"
+                     },
+                     {
+                        "label": "Model risk management group",
+                        "value": "MRMMRMG"
+                     },
+                     {
+                        "label": "Auditor",
+                        "value": "MRMAuditors"
+                     }
+                  ]
+               }
+            }
+         ]
+      ],
+      "voting_container": [
+         [
+            {
+               "compName": "ReadonlyFieldWidget",
+               "id": "voting_group_msg",
+               "label": "appbuilder.toolboxitem.readonlyfield.title",
+               "libName": "base",
+               "parentId": "voting_container",
+               "props": {}
+            },
+            {
+               "compName": "Image",
+               "id": "voting_zero_state_image",
+               "label": "appbuilder.toolboxitem.image.title",
+               "libName": "base",
+               "parentId": "voting_container",
+               "props": {
+                  "imageUri": "base://ZeroStateReport"
+               }
+            }
+         ],
+         [
+            {
+               "compName": "ColorDropdown",
+               "events": {
+                  "onChange": {
+                     "name": "activateOkButton"
+                  }
+               },
+               "fieldName": "model_owner_vote",
+               "id": "model_owner_vote",
+               "libName": "base",
+               "parentId": "voting_container",
+               "props": {
+                  "enableClear": true
+               }
+            },
+            {
+               "compName": "InputTextarea",
+               "events": {
+                  "onChange": {
+                     "name": "activateOkButton"
+                  }
+               },
+               "fieldName": "owner_vote_reason",
+               "id": "owner_vote_reason",
+               "libName": "base",
+               "parentId": "voting_container",
+               "props": {
+                  "rows": 6
+               }
+            }
+         ],
+         [
+            {
+               "compName": "ColorDropdown",
+               "events": {
+                  "onChange": {
+                     "name": "activateOkButton"
+                  }
+               },
+               "fieldName": "mrmg_vote",
+               "id": "mrmg_vote",
+               "libName": "base",
+               "parentId": "voting_container",
+               "props": {
+                  "enableClear": true
+               }
+            },
+            {
+               "compName": "InputTextarea",
+               "events": {
+                  "onChange": {
+                     "name": "activateOkButton"
+                  }
+               },
+               "fieldName": "mrmg_vote_reason",
+               "id": "mrmg_vote_reason",
+               "libName": "base",
+               "parentId": "voting_container",
+               "props": {
+                  "rows": 6
+               }
+            }
+         ],
+         [
+            {
+               "compName": "ColorDropdown",
+               "events": {
+                  "onChange": {
+                     "name": "activateOkButton"
+                  }
+               },
+               "fieldName": "auditor_vote",
+               "id": "auditor_vote",
+               "libName": "base",
+               "parentId": "voting_container",
+               "props": {
+                  "enableClear": true
+               }
+            },
+            {
+               "compName": "InputTextarea",
+               "events": {
+                  "onChange": {
+                     "name": "activateOkButton"
+                  }
+               },
+               "fieldName": "audit_vote_reason",
+               "id": "audit_vote_reason",
+               "libName": "base",
+               "parentId": "voting_container",
+               "props": {
+                  "rows": 6
+               }
+            }
+         ]
+      ]
+   }
+}

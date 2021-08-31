@@ -1,0 +1,422 @@
+{
+   "menuItemSwitch": {
+      "inputs": [
+         {
+            "datatype": "text array",
+            "name": "input_userGroups"
+         }
+      ],
+      "logic": [
+         {
+            "action": "setvar",
+            "id": "118e7dfb-e740-44d7-b081-1e129411ccd7",
+            "type": "fixed",
+            "value": {
+               "datatype": "text",
+               "dataval": " "
+            },
+            "variable": {
+               "datatype": "text",
+               "name": "spacer",
+               "scope": "local"
+            }
+         },
+         {
+            "action": "setvar",
+            "id": "570f9228-c560-4cd7-9416-e09f67856484",
+            "type": "fixed",
+            "value": {
+               "datatype": "text",
+               "dataval": "MRMUsers"
+            },
+            "variable": {
+               "datatype": "text",
+               "name": "mrmUsersGroup",
+               "scope": "local"
+            }
+         },
+         {
+            "action": "setvar",
+            "id": "d71b3778-75df-490a-a981-fc35199ffb53",
+            "type": "calculated",
+            "value": {
+               "function": "isCurrentUserInGroup",
+               "library": "CirrusLibCurrentUser",
+               "params": {
+                  "group": {
+                     "datatype": "text",
+                     "name": "mrmUsersGroup",
+                     "scope": "local"
+                  }
+               },
+               "returnType": "boolean"
+            },
+            "variable": {
+               "datatype": "boolean",
+               "name": "isMrmUsersGroup",
+               "scope": "local"
+            }
+         },
+         {
+            "action": "setvar",
+            "id": "a8bbb997-ac21-4169-9afc-e96e5f93f80a",
+            "type": "fixed",
+            "value": {
+               "datatype": "text",
+               "dataval": "MRMAdmins"
+            },
+            "variable": {
+               "datatype": "text",
+               "name": "mrmAdminGroup",
+               "scope": "local"
+            }
+         },
+         {
+            "action": "setvar",
+            "id": "ec2df1fc-b5c4-4bcb-80ed-927d310959c7",
+            "type": "calculated",
+            "value": {
+               "datatype": "boolean",
+               "function": "isCurrentUserAdministrator",
+               "library": "CirrusLibCurrentUser",
+               "params": {},
+               "returnType": "boolean"
+            },
+            "variable": {
+               "datatype": "boolean",
+               "name": "isAdminGroup",
+               "scope": "local"
+            }
+         },
+         {
+            "action": "setvar",
+            "id": "900acd3a-48f7-4701-80d2-c5f0dc05b9fb",
+            "type": "calculated",
+            "value": {
+               "function": "isCurrentUserInGroup",
+               "library": "CirrusLibCurrentUser",
+               "params": {
+                  "group": {
+                     "datatype": "text",
+                     "name": "mrmAdminGroup",
+                     "scope": "local"
+                  }
+               },
+               "returnType": "boolean"
+            },
+            "variable": {
+               "datatype": "boolean",
+               "name": "isMrmAdminGroup",
+               "scope": "local"
+            }
+         },
+         {
+            "action": "setvar",
+            "id": "034f39da-b35f-445c-99fa-0db1a3588bd8",
+            "type": "calculated",
+            "value": {
+               "function": "or",
+               "library": "CirrusLibBoolean",
+               "params": {
+                  "bool1": {
+                     "datatype": "boolean",
+                     "name": "isAdminGroup",
+                     "scope": "local"
+                  },
+                  "bool2": {
+                     "datatype": "boolean",
+                     "name": "isMrmAdminGroup",
+                     "scope": "local"
+                  }
+               },
+               "returnType": "boolean"
+            },
+            "variable": {
+               "datatype": "boolean",
+               "name": "isAdmin",
+               "scope": "local"
+            }
+         },
+         {
+            "action": "setvar",
+            "id": "acc912eb-5623-4e33-b428-23558bfee3b1",
+            "type": "fixed",
+            "value": {
+               "datatype": "text",
+               "dataval": "home Search models modelReviews findings"
+            },
+            "variable": {
+               "datatype": "text",
+               "name": "defaultMenuItemsRaw",
+               "scope": "local"
+            }
+         },
+         {
+            "action": "setvar",
+            "id": "a1f721f6-5e5b-4a3c-b2b5-b65a6cf666f1",
+            "type": "calculated",
+            "value": {
+               "function": "split",
+               "library": "CirrusLibString",
+               "params": {
+                  "separator": {
+                     "datatype": "text",
+                     "name": "spacer",
+                     "scope": "local"
+                  },
+                  "string": {
+                     "datatype": "text",
+                     "name": "defaultMenuItemsRaw",
+                     "scope": "local"
+                  }
+               },
+               "returnType": "text array"
+            },
+            "variable": {
+               "datatype": "text array",
+               "name": "defaultMenuItems",
+               "scope": "local"
+            }
+         },
+         {
+            "action": "ifelse",
+            "id": "cfa5103c-aa9b-4797-8897-6e4c3c42620c",
+            "test": {
+               "datatype": "boolean",
+               "name": "isAdmin",
+               "scope": "local"
+            }
+         },
+         {
+            "action": "setvar",
+            "id": "ac7f7d5e-bcb1-4cc8-847c-d618951ffcc5",
+            "type": "fixed",
+            "value": {
+               "datatype": "text",
+               "dataval": "DataLoad"
+            },
+            "variable": {
+               "datatype": "text",
+               "name": "adminMenuItemsRaw",
+               "scope": "local"
+            }
+         },
+         {
+            "action": "setvar",
+            "id": "5aa149cd-21b7-4702-99e3-3497092b5c45",
+            "type": "calculated",
+            "value": {
+               "function": "split",
+               "library": "CirrusLibString",
+               "params": {
+                  "separator": {
+                     "datatype": "text",
+                     "name": "spacer",
+                     "scope": "local"
+                  },
+                  "string": {
+                     "datatype": "text",
+                     "name": "adminMenuItemsRaw",
+                     "scope": "local"
+                  }
+               },
+               "returnType": "text array"
+            },
+            "variable": {
+               "datatype": "text array",
+               "name": "adminMenuItems",
+               "scope": "local"
+            }
+         },
+         {
+            "action": "setvar",
+            "id": "6cf3bc5d-0faf-4cc4-b12b-e9abe239463f",
+            "type": "calculated",
+            "value": {
+               "function": "getUnionWithoutDuplicates",
+               "library": "CirrusLibArray",
+               "params": {
+                  "array1": {
+                     "datatype": "text array",
+                     "name": "defaultMenuItems",
+                     "scope": "local"
+                  },
+                  "array2": {
+                     "datatype": "text array",
+                     "name": "adminMenuItems",
+                     "scope": "local"
+                  }
+               },
+               "returnType": "text array"
+            },
+            "variable": {
+               "datatype": "text array",
+               "name": "combineMenuItems",
+               "scope": "local"
+            }
+         },
+         {
+            "action": "returnvar",
+            "id": "07531e97-9a72-4927-9d84-f7b902fcf770",
+            "variable": {
+               "datatype": "text array",
+               "name": "combineMenuItems",
+               "scope": "local"
+            }
+         },
+         {
+            "action": "ifelse",
+            "end": true,
+            "id": "e1ed7f34-69ff-4738-8b51-d85c45430351",
+            "main": "cfa5103c-aa9b-4797-8897-6e4c3c42620c",
+            "test": {
+               "datatype": "boolean",
+               "name": "isAdmin",
+               "scope": "local"
+            }
+         },
+         {
+            "action": "ifelse",
+            "id": "b0be7678-bc33-43a3-b3fc-b8e6c6f11a36",
+            "test": {
+               "datatype": "boolean",
+               "name": "isMrmUsersGroup",
+               "scope": "local"
+            }
+         },
+         {
+            "action": "returnvar",
+            "id": "bc3125ee-c427-4cd0-b1b2-16dd13d864d8",
+            "variable": {
+               "datatype": "text array",
+               "name": "defaultMenuItems",
+               "scope": "local"
+            }
+         },
+         {
+            "action": "ifelse",
+            "end": true,
+            "id": "1c3f7fa6-c606-465a-8145-cfe0a8dbf054",
+            "main": "b0be7678-bc33-43a3-b3fc-b8e6c6f11a36",
+            "test": {
+               "datatype": "boolean",
+               "name": "isMrmUsersGroup",
+               "scope": "local"
+            }
+         },
+         {
+            "action": "setvar",
+            "id": "537baf1d-3c6d-4133-bff7-53f4c35781f4",
+            "type": "fixed",
+            "value": {
+               "datatype": "text",
+               "dataval": ""
+            },
+            "variable": {
+               "datatype": "text",
+               "name": "noneRaw",
+               "scope": "local"
+            }
+         },
+         {
+            "action": "setvar",
+            "id": "14db1d93-920c-4805-aba7-d96166103030",
+            "type": "calculated",
+            "value": {
+               "function": "split",
+               "library": "CirrusLibString",
+               "params": {
+                  "separator": {
+                     "datatype": "text",
+                     "name": "spacer",
+                     "scope": "local"
+                  },
+                  "string": {
+                     "datatype": "text",
+                     "name": "noneRaw",
+                     "scope": "local"
+                  }
+               },
+               "returnType": "text array"
+            },
+            "variable": {
+               "datatype": "text array",
+               "name": "none",
+               "scope": "local"
+            }
+         },
+         {
+            "action": "returnvar",
+            "id": "1d38aaca-0ff3-4565-9c7a-3015c35b05b5",
+            "variable": {
+               "datatype": "text array",
+               "name": "none",
+               "scope": "local"
+            }
+         }
+      ]
+   },
+   "onFirstLoad": {
+      "inputs": [],
+      "logic": [
+         {
+            "action": "setvar",
+            "id": "e6f188ec-c9f0-4641-a2cb-5d593cc5ccc6",
+            "type": "calculated",
+            "value": {
+               "function": "getCurrentUserGroupMemberships",
+               "library": "CirrusLibCurrentUser",
+               "params": {},
+               "returnType": "text array"
+            },
+            "variable": {
+               "datatype": "text array",
+               "name": "userGroups",
+               "scope": "local"
+            }
+         },
+         {
+            "action": "setvar",
+            "id": "300f626d-8c4d-4ec7-b7ef-41678bc632b5",
+            "type": "calculated",
+            "value": {
+               "function": "menuItemSwitch",
+               "library": "$interactions$",
+               "params": {
+                  "input_userGroups": {
+                     "datatype": "text array",
+                     "name": "userGroups",
+                     "scope": "local"
+                  }
+               },
+               "returnType": "text array"
+            },
+            "variable": {
+               "datatype": "text array",
+               "name": "menuItemIDs",
+               "scope": "local"
+            }
+         },
+         {
+            "action": "execfunc",
+            "function": "setMenuItems",
+            "id": "4e5b1eb5-44ab-41d8-bd51-fab3e6fc2577",
+            "library": "CirrusLibGeneral",
+            "params": {
+               "menuItemIDs": {
+                  "datatype": "text array",
+                  "name": "menuItemIDs",
+                  "scope": "local"
+               }
+            }
+         },
+         {
+            "action": "execfunc",
+            "function": "loadUserCapabilities",
+            "id": "daabd76c-e3e9-46bf-9880-6796a3b87089",
+            "library": "CirrusLibGeneral",
+            "params": {}
+         }
+      ]
+   }
+}

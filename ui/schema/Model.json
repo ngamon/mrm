@@ -1,0 +1,2188 @@
+{
+   "apiName": "models",
+   "bulkAPI": true,
+   "fields": {
+      "additional_comments": {
+         "id": "additional_comments",
+         "label": "Additional comments",
+         "props": {
+            "commentEditMode": "editableByOwner"
+         },
+         "tableMeta": {
+            "isSearchable": false,
+            "isShownByDefault": false,
+            "isSortable": false
+         },
+         "type": {
+            "compName": "Comments",
+            "libName": "base"
+         }
+      },
+      "additional_documentation": {
+         "id": "additional_documentation",
+         "label": "Additional relevant and supporting documentation",
+         "props": {},
+         "tableMeta": {
+            "isSearchable": false,
+            "isShownByDefault": false,
+            "isSortable": false
+         },
+         "type": {
+            "compName": "RGFAttachments",
+            "libName": "base"
+         }
+      },
+      "additional_links": {
+         "id": "additional_links",
+         "label": "Model-related links",
+         "props": {},
+         "tableMeta": {},
+         "type": {
+            "compName": "Links",
+            "libName": "base"
+         }
+      },
+      "audit_vote_reason": {
+         "id": "audit_vote_reason",
+         "label": "Auditor, please explain your vote",
+         "props": {},
+         "tableMeta": {
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "InputTextarea",
+            "libName": "base"
+         }
+      },
+      "auditor_vote": {
+         "id": "auditor_vote",
+         "label": "Auditor's vote",
+         "props": {
+            "colors": [
+               {
+                  "color": "15B57B",
+                  "value": "GOOD"
+               },
+               {
+                  "color": "FFCC32",
+                  "value": "FAIR"
+               },
+               {
+                  "color": "DD5757",
+                  "value": "POOR"
+               }
+            ],
+            "options": [
+               {
+                  "label": "Good",
+                  "value": "GOOD"
+               },
+               {
+                  "label": "Fair",
+                  "value": "FAIR"
+               },
+               {
+                  "label": "Poor",
+                  "value": "POOR"
+               }
+            ]
+         },
+         "tableMeta": {
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "ColorDropdown",
+            "libName": "base"
+         }
+      },
+      "benefit_type": {
+         "id": "benefit_type",
+         "label": "Type of benefit",
+         "props": {
+            "options": [
+               {
+                  "label": "Audit",
+                  "value": "AUDIT"
+               },
+               {
+                  "label": "Continuous development",
+                  "value": "CONTINUOUS_DEV"
+               },
+               {
+                  "label": "Cost savings - project",
+                  "value": "SAVINGS_PROJECT"
+               },
+               {
+                  "label": "Cost savings - standalone",
+                  "value": "SAVINGS_STANDALONE"
+               },
+               {
+                  "label": "Regulatory",
+                  "value": "REGULATORY"
+               },
+               {
+                  "label": "Regulatory - CCAR",
+                  "value": "REG_CCAR"
+               },
+               {
+                  "label": "Revenue - acquisition",
+                  "value": "REV_ACQUISITION"
+               },
+               {
+                  "label": "Revenue - attritition",
+                  "value": "REV_ATTRITION"
+               },
+               {
+                  "label": "Revenue - cross-selling",
+                  "value": "REV_CROSS_SELLING"
+               },
+               {
+                  "label": "Revenue - other",
+                  "value": "REV_OTHER"
+               },
+               {
+                  "label": "Risk",
+                  "value": "RISK"
+               },
+               {
+                  "label": "Other",
+                  "value": "OTHER"
+               }
+            ]
+         },
+         "tableMeta": {
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "Dropdown",
+            "libName": "base"
+         }
+      },
+      "contingency_plans": {
+         "id": "contingency_plans",
+         "label": "Describe any contingency plans",
+         "props": {},
+         "tableMeta": {
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "InputTextarea",
+            "libName": "base"
+         }
+      },
+      "control_score": {
+         "id": "control_score",
+         "label": "Control score",
+         "props": {
+            "colors": [
+               {
+                  "color": "#dd5757",
+                  "value": "WEAK"
+               },
+               {
+                  "color": "#ffcc32",
+                  "value": "MODERATE"
+               },
+               {
+                  "color": "#15b57b",
+                  "value": "STRONG"
+               }
+            ],
+            "options": [
+               {
+                  "label": "Weak controls",
+                  "value": "WEAK"
+               },
+               {
+                  "label": "Moderate controls",
+                  "value": "MODERATE"
+               },
+               {
+                  "label": "Strong controls",
+                  "value": "STRONG"
+               }
+            ]
+         },
+         "tableMeta": {
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "ColorDropdown",
+            "libName": "base"
+         }
+      },
+      "createdBy": {
+         "id": "createdBy",
+         "label": "Creator",
+         "tableMeta": {
+            "dataType": "string",
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "InputText",
+            "libName": "base"
+         }
+      },
+      "creationTimeStamp": {
+         "id": "creationTimeStamp",
+         "label": "Date created",
+         "props": {
+            "showTime": true
+         },
+         "tableMeta": {
+            "dataType": "date",
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "Calendar",
+            "libName": "base"
+         }
+      },
+      "criticality": {
+         "id": "criticality",
+         "label": "Criticality",
+         "props": {
+            "colors": [
+               {
+                  "color": "#dd5757",
+                  "value": "HIGH"
+               },
+               {
+                  "color": "#ffcc32",
+                  "value": "MODERATE"
+               },
+               {
+                  "color": "#15b57b",
+                  "value": "LOW"
+               }
+            ],
+            "options": [
+               {
+                  "label": "High",
+                  "value": "HIGH"
+               },
+               {
+                  "label": "Moderate",
+                  "value": "MODERATE"
+               },
+               {
+                  "label": "Low",
+                  "value": "LOW"
+               }
+            ]
+         },
+         "tableMeta": {
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "ColorDropdown",
+            "libName": "base"
+         }
+      },
+      "data_source": {
+         "id": "data_source",
+         "label": "Data source",
+         "props": {},
+         "tableMeta": {
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "InputText",
+            "libName": "base"
+         }
+      },
+      "default": {
+         "id": "default",
+         "label": "Default classification",
+         "props": {},
+         "tableMeta": {
+            "isSearchable": false,
+            "isShownByDefault": false,
+            "isSortable": false
+         },
+         "type": {
+            "compName": "RGFClassification",
+            "libName": "base"
+         }
+      },
+      "deployed": {
+         "id": "deployed",
+         "label": "Date deployed",
+         "props": {},
+         "tableMeta": {
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "Calendar",
+            "libName": "base"
+         }
+      },
+      "deployment_status": {
+         "id": "deployment_status",
+         "label": "Deployment status",
+         "props": {
+            "options": [
+               {
+                  "label": "In progress",
+                  "value": "IN_PROGRESS"
+               },
+               {
+                  "label": "Completed",
+                  "value": "COMPLETE"
+               }
+            ]
+         },
+         "tableMeta": {
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "Dropdown",
+            "libName": "base"
+         }
+      },
+      "deployment_tools": {
+         "id": "deployment_tools",
+         "label": "Deployment tools",
+         "props": {},
+         "tableMeta": {
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "InputText",
+            "libName": "base"
+         }
+      },
+      "description": {
+         "id": "description",
+         "label": "Model description",
+         "props": {},
+         "tableMeta": {
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": false
+         },
+         "type": {
+            "compName": "InputTextarea",
+            "libName": "base"
+         }
+      },
+      "development_documentation": {
+         "id": "development_documentation",
+         "label": "Attach development documentation",
+         "props": {},
+         "tableMeta": {
+            "isSearchable": false,
+            "isShownByDefault": false,
+            "isSortable": false
+         },
+         "type": {
+            "compName": "RGFAttachments",
+            "libName": "base"
+         }
+      },
+      "development_source": {
+         "id": "development_source",
+         "label": "Development source",
+         "props": {
+            "options": [
+               {
+                  "label": "Internal - no outside assistance",
+                  "value": "INTERNAL"
+               },
+               {
+                  "label": "Internal - some outside assistance",
+                  "value": "THIRD_PARTY"
+               },
+               {
+                  "label": "Third-party vendor - standard configuration",
+                  "value": "STANDARD"
+               },
+               {
+                  "label": "Third-party vendor - custom configuration",
+                  "value": "CUSTOM"
+               }
+            ]
+         },
+         "tableMeta": {
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "Dropdown",
+            "libName": "base"
+         }
+      },
+      "development_tools": {
+         "id": "development_tools",
+         "label": "Development tools",
+         "props": {
+            "options": [
+               {
+                  "label": "C/C++",
+                  "value": "C"
+               },
+               {
+                  "label": "Java",
+                  "value": "JAVA"
+               },
+               {
+                  "label": "Matlab",
+                  "value": "MATLAB"
+               },
+               {
+                  "label": "Microsoft Excel",
+                  "value": "EXCEL"
+               },
+               {
+                  "label": "Moody's",
+                  "value": "MOODYS"
+               },
+               {
+                  "label": "Python",
+                  "value": "PYTHON"
+               },
+               {
+                  "label": "QRM",
+                  "value": "QRM"
+               },
+               {
+                  "label": "R",
+                  "value": "R"
+               },
+               {
+                  "label": "SAS",
+                  "value": "SAS"
+               },
+               {
+                  "label": "Spark",
+                  "value": "SPARK"
+               },
+               {
+                  "label": "Other",
+                  "value": "OTHER"
+               }
+            ]
+         },
+         "tableMeta": {
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": false
+         },
+         "type": {
+            "compName": "CheckboxGroup",
+            "libName": "base"
+         }
+      },
+      "documentation_links": {
+         "id": "documentation_links",
+         "label": "Link to development documentation",
+         "tableMeta": {
+            "isSearchable": false,
+            "isShownByDefault": false,
+            "isSortable": false
+         },
+         "type": {
+            "compName": "Links",
+            "libName": "base"
+         }
+      },
+      "end_policy_exception": {
+         "id": "end_policy_exception",
+         "label": "Policy exception expires",
+         "props": {},
+         "tableMeta": {
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "Calendar",
+            "libName": "base"
+         }
+      },
+      "entered_inventory": {
+         "id": "entered_inventory",
+         "label": "Date added to inventory",
+         "props": {},
+         "tableMeta": {
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "Calendar",
+            "libName": "base"
+         }
+      },
+      "has_benchmark_model": {
+         "id": "has_benchmark_model",
+         "label": "A benchmark model exists",
+         "props": {},
+         "tableMeta": {
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "CheckboxField",
+            "libName": "base"
+         }
+      },
+      "has_overlay": {
+         "id": "has_overlay",
+         "label": "Model has an overlay",
+         "props": {},
+         "tableMeta": {
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "CheckboxField",
+            "libName": "base"
+         }
+      },
+      "has_recalibration_policy": {
+         "id": "has_recalibration_policy",
+         "label": "A recalibration policy exists",
+         "props": {},
+         "tableMeta": {
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "CheckboxField",
+            "libName": "base"
+         }
+      },
+      "inherent_risk_rating": {
+         "id": "inherent_risk_rating",
+         "label": "Inherent risk rating",
+         "props": {
+            "colors": [
+               {
+                  "color": "#dd5757",
+                  "value": "HIGH"
+               },
+               {
+                  "color": "#ffcc32",
+                  "value": "MODERATE"
+               },
+               {
+                  "color": "#15b57b",
+                  "value": "LOW"
+               }
+            ],
+            "options": [
+               {
+                  "label": "High",
+                  "value": "HIGH"
+               },
+               {
+                  "label": "Moderate",
+                  "value": "MODERATE"
+               },
+               {
+                  "label": "Low",
+                  "value": "LOW"
+               }
+            ]
+         },
+         "tableMeta": {
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "ColorDropdown",
+            "libName": "base"
+         }
+      },
+      "inputs": {
+         "id": "inputs",
+         "label": "Inputs",
+         "props": {},
+         "tableMeta": {
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "InputText",
+            "libName": "base"
+         }
+      },
+      "is_compliance_review_required": {
+         "id": "is_compliance_review_required",
+         "label": "Model requires compliance review",
+         "props": {},
+         "tableMeta": {
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "CheckboxField",
+            "libName": "base"
+         }
+      },
+      "is_documentation_attached": {
+         "id": "is_documentation_attached",
+         "label": "Documentation is attached",
+         "props": {},
+         "tableMeta": {
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "CheckboxField",
+            "libName": "base"
+         }
+      },
+      "is_functioning_properly": {
+         "id": "is_functioning_properly",
+         "label": "Model is functioning properly",
+         "props": {},
+         "tableMeta": {
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "CheckboxField",
+            "libName": "base"
+         }
+      },
+      "is_legal_review_required": {
+         "id": "is_legal_review_required",
+         "label": "Model requires legal review",
+         "props": {},
+         "tableMeta": {
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "CheckboxField",
+            "libName": "base"
+         }
+      },
+      "is_machine_learning": {
+         "id": "is_machine_learning",
+         "label": "Model uses machine learning",
+         "props": {},
+         "tableMeta": {
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "CheckboxField",
+            "libName": "base"
+         }
+      },
+      "is_open_source": {
+         "id": "is_open_source",
+         "label": "Model uses open source tools",
+         "props": {},
+         "tableMeta": {
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "CheckboxField",
+            "libName": "base"
+         }
+      },
+      "is_outcome_explained": {
+         "id": "is_outcome_explained",
+         "label": "Model can be explained",
+         "props": {},
+         "tableMeta": {
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "CheckboxField",
+            "libName": "base"
+         }
+      },
+      "is_overlay_reviewed": {
+         "id": "is_overlay_reviewed",
+         "label": "Overlay was reviewed independently",
+         "props": {},
+         "tableMeta": {
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "CheckboxField",
+            "libName": "base"
+         }
+      },
+      "is_reinstated": {
+         "id": "is_reinstated",
+         "label": "This model has been reinstated",
+         "props": {},
+         "tableMeta": {
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "CheckboxField",
+            "libName": "base"
+         }
+      },
+      "is_used_before_validation": {
+         "id": "is_used_before_validation",
+         "label": "Use this model without validation",
+         "props": {},
+         "tableMeta": {
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "CheckboxField",
+            "libName": "base"
+         }
+      },
+      "last_used": {
+         "id": "last_used",
+         "label": "Date of last use",
+         "props": {},
+         "tableMeta": {
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "Calendar",
+            "libName": "base"
+         }
+      },
+      "latest_attestation": {
+         "id": "latest_attestation",
+         "label": "Date of latest attestation",
+         "props": {
+            "showTime": false
+         },
+         "tableMeta": {
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "Calendar",
+            "libName": "base"
+         }
+      },
+      "latest_model_monitoring": {
+         "id": "latest_model_monitoring",
+         "label": "Date of latest model monitoring",
+         "props": {},
+         "tableMeta": {
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "Calendar",
+            "libName": "base"
+         }
+      },
+      "latest_risk_assessment": {
+         "id": "latest_risk_assessment",
+         "label": "Date of latest risk assessment",
+         "props": {},
+         "tableMeta": {
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "Calendar",
+            "libName": "base"
+         }
+      },
+      "legacy_model_status": {
+         "id": "legacy_model_status",
+         "label": "Legacy model's status",
+         "props": {
+            "options": [
+               {
+                  "label": "Development complete",
+                  "value": "DEV_COMPLETE"
+               },
+               {
+                  "label": "Development in progress",
+                  "value": "DEV_IN_PROGRESS"
+               },
+               {
+                  "label": "Dropped",
+                  "value": "DROPPED"
+               },
+               {
+                  "label": "Implementation complete",
+                  "value": "IMP_COMPLETE"
+               },
+               {
+                  "label": "Implementation in progress",
+                  "value": "IMP_IN_PROGRESS"
+               },
+               {
+                  "label": "In production",
+                  "value": "IN_PRODUCTION"
+               },
+               {
+                  "label": "Retirement complete",
+                  "value": "RETIREMENT_COMPLETE"
+               },
+               {
+                  "label": "Retirement in progress",
+                  "value": "RETIREMENT_IN_PROGRESS"
+               }
+            ]
+         },
+         "tableMeta": {
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "Dropdown",
+            "libName": "base"
+         }
+      },
+      "machine_learning_algorithms": {
+         "id": "machine_learning_algorithms",
+         "label": "Machine learning algorithms",
+         "props": {},
+         "tableMeta": {
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "InputText",
+            "libName": "base"
+         }
+      },
+      "machine_learning_doc": {
+         "id": "machine_learning_doc",
+         "label": "Documentation for machine learning rationale",
+         "props": {},
+         "tableMeta": {
+            "isSearchable": false,
+            "isShownByDefault": false,
+            "isSortable": false
+         },
+         "type": {
+            "compName": "RGFAttachments",
+            "libName": "base"
+         }
+      },
+      "machine_learning_explanation": {
+         "id": "machine_learning_explanation",
+         "label": "Reason for choosing machine learning",
+         "props": {},
+         "tableMeta": {
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": false
+         },
+         "type": {
+            "compName": "InputTextarea",
+            "libName": "base"
+         }
+      },
+      "machine_learning_level": {
+         "id": "machine_learning_level",
+         "label": "Level of machine learning usage",
+         "props": {
+            "options": [
+               {
+                  "label": "Full model",
+                  "value": "FULL"
+               },
+               {
+                  "label": "Data preparation",
+                  "value": "DATA_PREP"
+               },
+               {
+                  "label": "Feature selection",
+                  "value": "FEATURE"
+               },
+               {
+                  "label": "Other",
+                  "value": "OTHER"
+               }
+            ]
+         },
+         "tableMeta": {
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "Dropdown",
+            "libName": "base"
+         }
+      },
+      "machine_learning_monitoring": {
+         "id": "machine_learning_monitoring",
+         "label": "Monitoring frequency",
+         "props": {
+            "options": [
+               {
+                  "label": "Daily",
+                  "value": "DAILY"
+               },
+               {
+                  "label": "Weekly",
+                  "value": "WEEKLY"
+               },
+               {
+                  "label": "Monthly",
+                  "value": "MONTHLY"
+               },
+               {
+                  "label": "Quarterly",
+                  "value": "QUARTERLY"
+               },
+               {
+                  "label": "Yearly",
+                  "value": "YEARLY"
+               }
+            ]
+         },
+         "tableMeta": {
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "Dropdown",
+            "libName": "base"
+         }
+      },
+      "machine_learning_type": {
+         "id": "machine_learning_type",
+         "label": "Type of machine learning",
+         "props": {
+            "options": [
+               {
+                  "label": "Supervised",
+                  "value": "SUPERVISED"
+               },
+               {
+                  "label": "Semi-supervised",
+                  "value": "SEMI_SUPERVISED"
+               },
+               {
+                  "label": "Unsupervised",
+                  "value": "UNSUPERVISED"
+               }
+            ]
+         },
+         "tableMeta": {
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "Dropdown",
+            "libName": "base"
+         }
+      },
+      "materiality": {
+         "id": "materiality",
+         "label": "Materiality",
+         "props": {
+            "colors": [
+               {
+                  "color": "#dd5757",
+                  "value": "HIGH"
+               },
+               {
+                  "color": "#ffcc32",
+                  "value": "MODERATE"
+               },
+               {
+                  "color": "#15b57b",
+                  "value": "LOW"
+               }
+            ],
+            "options": [
+               {
+                  "label": "High",
+                  "value": "HIGH"
+               },
+               {
+                  "label": "Moderate",
+                  "value": "MODERATE"
+               },
+               {
+                  "label": "Low",
+                  "value": "LOW"
+               }
+            ]
+         },
+         "tableMeta": {
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "ColorDropdown",
+            "libName": "base"
+         }
+      },
+      "modelStatus": {
+         "id": "modelStatus",
+         "label": "Model status",
+         "props": {
+            "options": [
+               {
+                  "label": "Draft",
+                  "value": "CREATE"
+               },
+               {
+                  "label": "Created",
+                  "value": "EDIT_MODEL"
+               },
+               {
+                  "label": "Model owner review",
+                  "value": "PENDING_OWNER_APPROVAL"
+               },
+               {
+                  "label": "Model risk management group review",
+                  "value": "MRMG_TRIAGE"
+               },
+               {
+                  "label": "Not a model",
+                  "value": "NOT_A_MODEL"
+               },
+               {
+                  "label": "In development",
+                  "value": "DEVELOP_MODEL"
+               },
+               {
+                  "label": "Peer review",
+                  "value": "PEER_REVIEW"
+               },
+               {
+                  "label": "In validation",
+                  "value": "PENDING_VALIDATION"
+               },
+               {
+                  "label": "Rejected during development",
+                  "value": "REJECTED_FROM_DEVELOPMENT"
+               },
+               {
+                  "label": "In deployment",
+                  "value": "IN_DEPLOYMENT"
+               },
+               {
+                  "label": "Rejected during validation",
+                  "value": "REJECTED_FROM_VALIDATION"
+               },
+               {
+                  "label": "In production (validated model)",
+                  "value": "IN_USE_WITH_VALIDATION"
+               },
+               {
+                  "label": "In production (non-validated model)",
+                  "value": "IN_USE_NO_VALIDATION"
+               },
+               {
+                  "label": "Retirement is pending",
+                  "value": "PENDING_RETIREMENT"
+               },
+               {
+                  "label": "Rejected during production",
+                  "value": "REJECTED_FROM_PRODUCTION"
+               },
+               {
+                  "label": "Retired",
+                  "value": "IN_RETIREMENT"
+               },
+               {
+                  "label": "Permanently retired",
+                  "value": "PERMANENTLY_RETIRED"
+               },
+               {
+                  "label": "Exception request is pending",
+                  "value": "PENDING_EXCEPTION"
+               }
+            ]
+         },
+         "tableMeta": {
+            "dataType": "string",
+            "isSearchable": true,
+            "isShownByDefault": true,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "Dropdown",
+            "libName": "base"
+         }
+      },
+      "model_monitoring_rating": {
+         "id": "model_monitoring_rating",
+         "label": "Model monitoring rating",
+         "props": {
+            "colors": [
+               {
+                  "color": "#dd5757",
+                  "value": "HIGH"
+               },
+               {
+                  "color": "#f88325",
+                  "value": "MODERATE"
+               },
+               {
+                  "color": "#ffcc32",
+                  "value": "LOW"
+               }
+            ],
+            "options": [
+               {
+                  "label": "High",
+                  "value": "HIGH"
+               },
+               {
+                  "label": "Moderate",
+                  "value": "MODERATE"
+               },
+               {
+                  "label": "Low",
+                  "value": "LOW"
+               }
+            ]
+         },
+         "tableMeta": {
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "ColorDropdown",
+            "libName": "base"
+         }
+      },
+      "model_owner_vote": {
+         "id": "model_owner_vote",
+         "label": "Model owner's vote",
+         "props": {
+            "colors": [
+               {
+                  "color": "15B57B",
+                  "value": "GOOD"
+               },
+               {
+                  "color": "FFCC32",
+                  "value": "FAIR"
+               },
+               {
+                  "color": "DD5757",
+                  "value": "POOR"
+               }
+            ],
+            "options": [
+               {
+                  "label": "Good",
+                  "value": "GOOD"
+               },
+               {
+                  "label": "Fair",
+                  "value": "FAIR"
+               },
+               {
+                  "label": "Poor",
+                  "value": "POOR"
+               }
+            ]
+         },
+         "tableMeta": {
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "ColorDropdown",
+            "libName": "base"
+         }
+      },
+      "model_performance": {
+         "id": "model_performance",
+         "label": "Describe model performance",
+         "props": {},
+         "tableMeta": {
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "InputTextarea",
+            "libName": "base"
+         }
+      },
+      "model_usage_details": {
+         "id": "model_usage_details",
+         "label": "Usage details",
+         "props": {},
+         "tableMeta": {
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": false
+         },
+         "type": {
+            "compName": "InputTextarea",
+            "libName": "base"
+         }
+      },
+      "modifiedBy": {
+         "id": "modifiedBy",
+         "label": "Last editor",
+         "tableMeta": {
+            "dataType": "string",
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "InputText",
+            "libName": "base"
+         }
+      },
+      "modifiedTimeStamp": {
+         "id": "modifiedTimeStamp",
+         "label": "Date modified",
+         "props": {
+            "showTime": true
+         },
+         "tableMeta": {
+            "dataType": "date",
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "Calendar",
+            "libName": "base"
+         }
+      },
+      "monitoring_frequency": {
+         "id": "monitoring_frequency",
+         "label": "Frequency of monitoring",
+         "props": {
+            "options": [
+               {
+                  "label": "Daily",
+                  "value": "DAILY"
+               },
+               {
+                  "label": "Weekly",
+                  "value": "WEEKLY"
+               },
+               {
+                  "label": "Monthly",
+                  "value": "MONTHLY"
+               },
+               {
+                  "label": "Quarterly",
+                  "value": "QUARTERLY"
+               },
+               {
+                  "label": "Half-yearly",
+                  "value": "HALF_YEARLY"
+               },
+               {
+                  "label": "Yearly",
+                  "value": "YEARLY"
+               }
+            ]
+         },
+         "tableMeta": {
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "Dropdown",
+            "libName": "base"
+         }
+      },
+      "mrmg_vote": {
+         "id": "mrmg_vote",
+         "label": "Model risk group's vote",
+         "props": {
+            "colors": [
+               {
+                  "color": "15B57B",
+                  "value": "GOOD"
+               },
+               {
+                  "color": "FFCC32",
+                  "value": "FAIR"
+               },
+               {
+                  "color": "DD5757",
+                  "value": "POOR"
+               }
+            ],
+            "options": [
+               {
+                  "label": "Good",
+                  "value": "GOOD"
+               },
+               {
+                  "label": "Fair",
+                  "value": "FAIR"
+               },
+               {
+                  "label": "Poor",
+                  "value": "POOR"
+               }
+            ]
+         },
+         "tableMeta": {
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "ColorDropdown",
+            "libName": "base"
+         }
+      },
+      "mrmg_vote_reason": {
+         "id": "mrmg_vote_reason",
+         "label": "Model risk group, please explain your vote",
+         "props": {},
+         "tableMeta": {
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "InputTextarea",
+            "libName": "base"
+         }
+      },
+      "name": {
+         "id": "name",
+         "label": "Model name",
+         "tableMeta": {
+            "dataType": "string",
+            "isSearchable": true,
+            "isShownByDefault": true,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "InputText",
+            "libName": "base"
+         }
+      },
+      "objectId": {
+         "id": "objectId",
+         "label": "Model ID",
+         "props": {},
+         "tableMeta": {
+            "isSearchable": true,
+            "isShownByDefault": true,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "InputText",
+            "libName": "base"
+         }
+      },
+      "open_source_tools": {
+         "id": "open_source_tools",
+         "label": "List the open source tools",
+         "props": {},
+         "tableMeta": {
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "InputText",
+            "libName": "base"
+         }
+      },
+      "outcome_analysis": {
+         "id": "outcome_analysis",
+         "label": "Describe any analysis of the outcome",
+         "props": {},
+         "tableMeta": {
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "InputTextarea",
+            "libName": "base"
+         }
+      },
+      "outcome_explanation": {
+         "id": "outcome_explanation",
+         "label": "Techniques used to explain the model",
+         "props": {},
+         "tableMeta": {
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "InputTextarea",
+            "libName": "base"
+         }
+      },
+      "outputs": {
+         "id": "outputs",
+         "label": "Outputs",
+         "props": {},
+         "tableMeta": {
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "InputText",
+            "libName": "base"
+         }
+      },
+      "overfitting_explanation": {
+         "id": "overfitting_explanation",
+         "label": "Explain how overfitting is handled",
+         "props": {},
+         "tableMeta": {
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "InputTextarea",
+            "libName": "base"
+         }
+      },
+      "overlay_applied": {
+         "id": "overlay_applied",
+         "label": "Overlay applied",
+         "props": {},
+         "tableMeta": {
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "Calendar",
+            "libName": "base"
+         }
+      },
+      "overlay_applier": {
+         "id": "overlay_applier",
+         "label": "Who applied the overlay",
+         "props": {},
+         "tableMeta": {
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "InputText",
+            "libName": "base"
+         }
+      },
+      "overlay_reviewer": {
+         "id": "overlay_reviewer",
+         "label": "Who reviewed the overlay",
+         "props": {},
+         "tableMeta": {
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "InputText",
+            "libName": "base"
+         }
+      },
+      "overlay_valid_to": {
+         "id": "overlay_valid_to",
+         "label": "Overlay expires",
+         "props": {},
+         "tableMeta": {
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "Calendar",
+            "libName": "base"
+         }
+      },
+      "owner_notes": {
+         "id": "owner_notes",
+         "label": "Owner notes",
+         "props": {},
+         "tableMeta": {
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "InputTextarea",
+            "libName": "base"
+         }
+      },
+      "owner_vote_reason": {
+         "id": "owner_vote_reason",
+         "label": "Owner, please explain your vote",
+         "props": {},
+         "tableMeta": {
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "InputTextarea",
+            "libName": "base"
+         }
+      },
+      "peer_review": {
+         "id": "peer_review",
+         "label": "Peer review",
+         "props": {},
+         "tableMeta": {
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "InputTextarea",
+            "libName": "base"
+         }
+      },
+      "policy_exception_details": {
+         "id": "policy_exception_details",
+         "label": "Explain why this model should be used without validation",
+         "props": {},
+         "tableMeta": {
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": false
+         },
+         "type": {
+            "compName": "InputTextarea",
+            "libName": "base"
+         }
+      },
+      "primary_contact": {
+         "id": "primary_contact",
+         "label": "Primary contact",
+         "props": {},
+         "tableMeta": {
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "InputText",
+            "libName": "base"
+         }
+      },
+      "reason_for_overlay": {
+         "id": "reason_for_overlay",
+         "label": "Explain why an overlay was applied",
+         "props": {},
+         "tableMeta": {
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "InputTextarea",
+            "libName": "base"
+         }
+      },
+      "recalibration_policy": {
+         "id": "recalibration_policy",
+         "label": "Recalibration policies",
+         "props": {},
+         "tableMeta": {
+            "isSearchable": false,
+            "isShownByDefault": false,
+            "isSortable": false
+         },
+         "type": {
+            "compName": "Links",
+            "libName": "base"
+         }
+      },
+      "reinstated_by": {
+         "id": "reinstated_by",
+         "label": "Reinstated by",
+         "props": {},
+         "tableMeta": {
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "InputText",
+            "libName": "base"
+         }
+      },
+      "reinstated_on": {
+         "id": "reinstated_on",
+         "label": "Date reinstated",
+         "props": {},
+         "tableMeta": {
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "Calendar",
+            "libName": "base"
+         }
+      },
+      "reinstatement_reason": {
+         "id": "reinstatement_reason",
+         "label": "Reason for reinstatement",
+         "props": {},
+         "tableMeta": {
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": false
+         },
+         "type": {
+            "compName": "InputTextarea",
+            "libName": "base"
+         }
+      },
+      "residual_risk_rating": {
+         "id": "residual_risk_rating",
+         "label": "Residual risk rating",
+         "props": {
+            "colors": [
+               {
+                  "color": "#dd5757",
+                  "value": "HIGH"
+               },
+               {
+                  "color": "#ffcc32",
+                  "value": "MODERATE"
+               },
+               {
+                  "color": "#15b57b",
+                  "value": "LOW"
+               }
+            ],
+            "options": [
+               {
+                  "label": "High",
+                  "value": "HIGH"
+               },
+               {
+                  "label": "Moderate",
+                  "value": "MODERATE"
+               },
+               {
+                  "label": "Low",
+                  "value": "LOW"
+               }
+            ]
+         },
+         "tableMeta": {
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "ColorDropdown",
+            "libName": "base"
+         }
+      },
+      "retired_by": {
+         "id": "retired_by",
+         "label": "Retired by",
+         "props": {},
+         "tableMeta": {
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "InputText",
+            "libName": "base"
+         }
+      },
+      "retired_on": {
+         "id": "retired_on",
+         "label": "Date retired",
+         "props": {},
+         "tableMeta": {
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "Calendar",
+            "libName": "base"
+         }
+      },
+      "retirement_reason": {
+         "id": "retirement_reason",
+         "label": "Reason for retirement",
+         "props": {},
+         "tableMeta": {
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": false
+         },
+         "type": {
+            "compName": "InputTextarea",
+            "libName": "base"
+         }
+      },
+      "risk_tier": {
+         "id": "risk_tier",
+         "label": "Risk tier",
+         "props": {
+            "colors": [
+               {
+                  "color": "#dd5757",
+                  "value": "TIER_1"
+               },
+               {
+                  "color": "#f88325",
+                  "value": "TIER_2"
+               },
+               {
+                  "color": "#ffcc32",
+                  "value": "TIER_3"
+               },
+               {
+                  "color": "#15b57b",
+                  "value": "TIER_4"
+               },
+               {
+                  "color": "#b1b8c3",
+                  "value": "UNSPECIFIED"
+               }
+            ],
+            "options": [
+               {
+                  "label": "Tier 1",
+                  "value": "TIER_1"
+               },
+               {
+                  "label": "Tier 2",
+                  "value": "TIER_2"
+               },
+               {
+                  "label": "Tier 3",
+                  "value": "TIER_3"
+               },
+               {
+                  "label": "Tier 4",
+                  "value": "TIER_4"
+               },
+               {
+                  "label": "Unspecified",
+                  "value": "UNSPECIFIED"
+               }
+            ]
+         },
+         "tableMeta": {
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "ColorDropdown",
+            "libName": "base"
+         }
+      },
+      "scope": {
+         "id": "scope",
+         "label": "Model scope",
+         "props": {},
+         "tableMeta": {
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "InputText",
+            "libName": "base"
+         }
+      },
+      "source_code_files": {
+         "id": "source_code_files",
+         "label": "Source code files",
+         "props": {},
+         "tableMeta": {
+            "isSearchable": false,
+            "isShownByDefault": false,
+            "isSortable": false
+         },
+         "type": {
+            "compName": "RGFAttachments",
+            "libName": "base"
+         }
+      },
+      "source_model_name": {
+         "id": "source_model_name",
+         "label": "Source model name",
+         "props": {},
+         "tableMeta": {},
+         "type": {
+            "compName": "ModelRepositorySelector",
+            "libName": "base"
+         }
+      },
+      "start_policy_exception": {
+         "id": "start_policy_exception",
+         "label": "Policy exception begins",
+         "props": {},
+         "tableMeta": {
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "Calendar",
+            "libName": "base"
+         }
+      },
+      "supported_regulations": {
+         "id": "supported_regulations",
+         "label": "Supported regulations",
+         "props": {
+            "options": [
+               {
+                  "label": "Basel",
+                  "value": "BASEL"
+               },
+               {
+                  "label": "CCAR",
+                  "value": "CCAR"
+               },
+               {
+                  "label": "CECL",
+                  "value": "CECL"
+               },
+               {
+                  "label": "DFAST",
+                  "value": "DFAST"
+               },
+               {
+                  "label": "SOX",
+                  "value": "SOX"
+               }
+            ]
+         },
+         "tableMeta": {
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": false
+         },
+         "type": {
+            "compName": "CheckboxGroup",
+            "libName": "base"
+         }
+      },
+      "type": {
+         "id": "type",
+         "label": "Model type",
+         "props": {
+            "options": [
+               {
+                  "label": "Benchmark",
+                  "value": "BENCHMARK"
+               },
+               {
+                  "label": "Challenger",
+                  "value": "CHALLENGER"
+               },
+               {
+                  "label": "Champion",
+                  "value": "CHAMPION"
+               }
+            ]
+         },
+         "tableMeta": {
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "Dropdown",
+            "libName": "base"
+         }
+      },
+      "vendor": {
+         "id": "vendor",
+         "label": "Vendor",
+         "props": {},
+         "tableMeta": {
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "InputText",
+            "libName": "base"
+         }
+      },
+      "version": {
+         "id": "version",
+         "label": "Model version",
+         "props": {},
+         "tableMeta": {
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "InputText",
+            "libName": "base"
+         }
+      },
+      "was_used_without_validation": {
+         "id": "was_used_without_validation",
+         "label": "This model was used without validation",
+         "props": {},
+         "tableMeta": {
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "CheckboxField",
+            "libName": "base"
+         }
+      }
+   },
+   "id": "Model",
+   "nameField": "name",
+   "options": {
+      "custom": {
+         "polls": {
+            "modelWellness": {
+               "options": [
+                  {
+                     "color": "#ff0102",
+                     "id": "bad",
+                     "label": "Bad",
+                     "priority": 3
+                  },
+                  {
+                     "color": "#ffc200",
+                     "id": "ok",
+                     "label": "OK",
+                     "priority": 2
+                  },
+                  {
+                     "color": "#00b14e",
+                     "id": "good",
+                     "label": "Good",
+                     "priority": 1
+                  }
+               ],
+               "resultWeightField": "materiality",
+               "votingAggregation": {
+                  "interGroup": "worstVoteWins",
+                  "intraGroup": "lastVoteWins"
+               },
+               "votingGroups": [
+                  {
+                     "relationship": "owners",
+                     "weight": 1
+                  },
+                  {
+                     "relationship": "mrmgUsers",
+                     "weight": 1
+                  },
+                  {
+                     "relationship": "coeCoordinators",
+                     "weight": 1
+                  }
+               ]
+            }
+         }
+      }
+   },
+   "relationships": {
+      "model_auditor": {
+         "cardinality": "many",
+         "groupId": "MRMAuditors",
+         "label": "Audit Team",
+         "sourceLabel": "Model Audited",
+         "sourceLabelPlural": "Models Audited",
+         "sourceName": "auditingModels",
+         "sourceType": "Model",
+         "targetLabel": "Auditor",
+         "targetLabelPlural": "Audit Team",
+         "targetName": "auditors",
+         "targetType": "User",
+         "type": "lookup"
+      },
+      "model_developer": {
+         "cardinality": "many",
+         "groupId": "MRMModelDevelopers",
+         "label": "Model Developers",
+         "sourceLabel": "Model",
+         "sourceLabelPlural": "Models",
+         "sourceName": "modelsDeveloped",
+         "sourceType": "Model",
+         "targetLabel": "Model Developer",
+         "targetLabelPlural": "Model Developers",
+         "targetName": "developers",
+         "targetType": "User",
+         "type": "lookup"
+      },
+      "model_finding": {
+         "cardinality": "many",
+         "label": "Models",
+         "sourceLabel": "Model",
+         "sourceLabelPlural": "Models",
+         "sourceName": "foundModels",
+         "sourceType": "Model",
+         "targetLabel": "Finding",
+         "targetLabelPlural": "Findings",
+         "targetName": "linkedFindings",
+         "targetType": "Finding",
+         "type": "lookup"
+      },
+      "model_model": {
+         "cardinality": "many",
+         "label": "Benchmark Models",
+         "sourceLabel": "Benchmark for Model",
+         "sourceLabelPlural": "Benchmark for Models",
+         "sourceName": "benchmarkedBy",
+         "sourceType": "Model",
+         "targetLabel": "Benchmark Model",
+         "targetLabelPlural": "Benchmark Models",
+         "targetName": "benchmarkModel",
+         "targetType": "Model",
+         "type": "lookup"
+      },
+      "model_modelReview": {
+         "cardinality": "many",
+         "label": "Model Reviews",
+         "sourceLabel": "Model",
+         "sourceLabelPlural": "Models",
+         "sourceName": "linked_Models",
+         "sourceType": "Model",
+         "targetLabel": "Model Review",
+         "targetLabelPlural": "Model Reviews",
+         "targetName": "linked_Reviews",
+         "targetType": "ModelReview",
+         "type": "lookup"
+      },
+      "model_mrmg": {
+         "cardinality": "many",
+         "groupId": "MRMMRMG",
+         "label": "Model Risk Management Group",
+         "sourceLabel": "Model",
+         "sourceLabelPlural": "Models",
+         "sourceName": "modelMRMG",
+         "sourceType": "Model",
+         "targetLabel": "Model Risk Management Group Member",
+         "targetLabelPlural": "Model Risk Management Group",
+         "targetName": "mrmgUsers",
+         "targetType": "User",
+         "type": "lookup"
+      },
+      "model_owner": {
+         "cardinality": "many",
+         "groupId": "MRMModelOwners",
+         "label": "Model Owners",
+         "sourceLabel": "Model",
+         "sourceLabelPlural": "Models",
+         "sourceName": "modelsOwned",
+         "sourceType": "Model",
+         "targetLabel": "Model Owner",
+         "targetLabelPlural": "Model Owners",
+         "targetName": "owners",
+         "targetType": "User",
+         "type": "lookup"
+      },
+      "model_user": {
+         "cardinality": "many",
+         "groupId": "MRMModelUsers",
+         "label": "Model Users",
+         "sourceLabel": "Model",
+         "sourceLabelPlural": "Models",
+         "sourceName": "modelsUsed",
+         "sourceType": "Model",
+         "targetLabel": "Model User",
+         "targetLabelPlural": "Model Users",
+         "targetName": "modelUsers",
+         "targetType": "User",
+         "type": "lookup"
+      },
+      "upstream_downstream": {
+         "cardinality": "many",
+         "label": "Upstream Models",
+         "sourceLabel": "Downstream Model",
+         "sourceLabelPlural": "Downstream Models",
+         "sourceName": "downstream_models",
+         "sourceType": "Model",
+         "targetLabel": "Upstream Model",
+         "targetLabelPlural": "Upstream Models",
+         "targetName": "upstream_models",
+         "targetType": "Model",
+         "type": "lookup"
+      }
+   },
+   "searchable": true,
+   "security": {
+      "actions": {
+         "edit": false,
+         "execute": false,
+         "view": true
+      },
+      "allowSharing": true,
+      "useHierarchy": true
+   },
+   "streamAPI": true
+}

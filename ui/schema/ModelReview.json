@@ -1,0 +1,680 @@
+{
+   "apiName": "modelReviews",
+   "bulkAPI": true,
+   "fields": {
+      "actualEndDt": {
+         "id": "actualEndDt",
+         "label": "Actual end date",
+         "props": {
+            "showTime": false
+         },
+         "tableMeta": {
+            "dataType": "date",
+            "isSearchable": true,
+            "isShownByDefault": true,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "Calendar",
+            "libName": "base"
+         }
+      },
+      "actualEndTimestamp": {
+         "id": "actualEndTimestamp",
+         "label": "Actual end time and date",
+         "props": {},
+         "tableMeta": {
+            "dataType": "timestamp",
+            "isSearchable": false,
+            "isShownByDefault": false,
+            "isSortable": false
+         },
+         "type": {
+            "compName": "ReadonlyField",
+            "libName": "base"
+         }
+      },
+      "actualStartDt": {
+         "id": "actualStartDt",
+         "label": "Actual start date",
+         "props": {
+            "showTime": false
+         },
+         "tableMeta": {
+            "dataType": "date",
+            "isSearchable": true,
+            "isShownByDefault": true,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "Calendar",
+            "libName": "base"
+         }
+      },
+      "additionalAttachments": {
+         "id": "additionalAttachments",
+         "label": "Supporting documentation",
+         "tableMeta": {
+            "isSearchable": false,
+            "isShownByDefault": false,
+            "isSortable": false
+         },
+         "type": {
+            "compName": "RGFAttachments",
+            "libName": "base"
+         }
+      },
+      "additionalComments": {
+         "id": "additionalComments",
+         "label": "Additional comments",
+         "props": {
+            "commentEditMode": "editableByOwner"
+         },
+         "type": {
+            "compName": "Comments",
+            "libName": "base"
+         }
+      },
+      "additionalLinks": {
+         "id": "additionalLinks",
+         "label": "Review-related links",
+         "tableMeta": {
+            "isSearchable": false,
+            "isShownByDefault": false,
+            "isSortable": false
+         },
+         "type": {
+            "compName": "Links",
+            "libName": "base"
+         }
+      },
+      "annualReviewStatus": {
+         "id": "annualReviewStatus",
+         "label": "Annual review status",
+         "props": {
+            "options": [
+               {
+                  "label": "High",
+                  "value": "HIGH"
+               },
+               {
+                  "label": "Moderate",
+                  "value": "MODERATE"
+               },
+               {
+                  "label": "Low",
+                  "value": "LOW"
+               }
+            ]
+         },
+         "tableMeta": {
+            "dataType": "string",
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "Dropdown",
+            "libName": "base"
+         }
+      },
+      "createdBy": {
+         "id": "createdBy",
+         "label": "Creator",
+         "tableMeta": {
+            "dataType": "string",
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "InputText",
+            "libName": "base"
+         }
+      },
+      "creationTimeStamp": {
+         "id": "creationTimeStamp",
+         "label": "Date created",
+         "props": {},
+         "tableMeta": {
+            "isSearchable": false,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "Calendar",
+            "libName": "base"
+         }
+      },
+      "default": {
+         "id": "default",
+         "label": "Default classification",
+         "props": {},
+         "tableMeta": {
+            "isSearchable": false,
+            "isShownByDefault": false,
+            "isSortable": false
+         },
+         "type": {
+            "compName": "RGFClassification",
+            "libName": "base"
+         }
+      },
+      "description": {
+         "id": "description",
+         "label": "Review description",
+         "tableMeta": {
+            "dataType": "string",
+            "isSearchable": true,
+            "isShownByDefault": true,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "InputTextarea",
+            "libName": "base"
+         }
+      },
+      "implementationDt": {
+         "id": "implementationDt",
+         "label": "Date of model implementation",
+         "tableMeta": {
+            "dataType": "date",
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "Calendar",
+            "libName": "base"
+         }
+      },
+      "implementationFlg": {
+         "id": "implementationFlg",
+         "label": "Implementation is complete",
+         "tableMeta": {
+            "dataType": "boolean",
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "CheckboxField",
+            "libName": "base"
+         }
+      },
+      "issueMgmtFlg": {
+         "id": "issueMgmtFlg",
+         "label": "Issue management is complete",
+         "tableMeta": {
+            "dataType": "boolean",
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "CheckboxField",
+            "libName": "base"
+         }
+      },
+      "lastAnnualRevDt": {
+         "id": "lastAnnualRevDt",
+         "label": "Date of last annual review",
+         "tableMeta": {
+            "dataType": "date",
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "Calendar",
+            "libName": "base"
+         }
+      },
+      "lastFsvDt": {
+         "id": "lastFsvDt",
+         "label": "Date of last full scope validation",
+         "tableMeta": {
+            "dataType": "date",
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "Calendar",
+            "libName": "base"
+         }
+      },
+      "lastPerfRevDt": {
+         "id": "lastPerfRevDt",
+         "label": "Date of last model performance review",
+         "tableMeta": {
+            "dataType": "date",
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "Calendar",
+            "libName": "base"
+         }
+      },
+      "materiality": {
+         "id": "materiality",
+         "label": "Materiality",
+         "props": {
+            "colors": [
+               {
+                  "color": "#ff4d4d",
+                  "value": "HIGH"
+               },
+               {
+                  "color": "#ffb829",
+                  "value": "MODERATE"
+               },
+               {
+                  "color": "#0eaa18",
+                  "value": "LOW"
+               }
+            ],
+            "options": [
+               {
+                  "label": "High",
+                  "value": "HIGH"
+               },
+               {
+                  "label": "Moderate",
+                  "value": "MODERATE"
+               },
+               {
+                  "label": "Low",
+                  "value": "LOW"
+               }
+            ]
+         },
+         "tableMeta": {
+            "isSearchable": false,
+            "isShownByDefault": false,
+            "isSortable": false
+         },
+         "type": {
+            "compName": "ColorDropdown",
+            "libName": "base"
+         }
+      },
+      "modifiedBy": {
+         "id": "modifiedBy",
+         "label": "Last editor",
+         "tableMeta": {
+            "dataType": "string",
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "InputText",
+            "libName": "base"
+         }
+      },
+      "modifiedTimeStamp": {
+         "id": "modifiedTimeStamp",
+         "label": "Date modified",
+         "props": {
+            "showTime": true
+         },
+         "tableMeta": {
+            "dataType": "date",
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "Calendar",
+            "libName": "base"
+         }
+      },
+      "name": {
+         "id": "name",
+         "label": "Review name",
+         "tableMeta": {
+            "dataType": "string",
+            "isSearchable": true,
+            "isShownByDefault": true,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "InputText",
+            "libName": "base"
+         }
+      },
+      "nextAnnualRevDt": {
+         "id": "nextAnnualRevDt",
+         "label": "Date of next annual review",
+         "tableMeta": {
+            "dataType": "date",
+            "isSearchable": true,
+            "isShownByDefault": true,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "Calendar",
+            "libName": "base"
+         }
+      },
+      "nextValidationDt": {
+         "id": "nextValidationDt",
+         "label": "Date of next validation",
+         "tableMeta": {
+            "dataType": "date",
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "Calendar",
+            "libName": "base"
+         }
+      },
+      "objectId": {
+         "id": "objectId",
+         "label": "Review ID",
+         "tableMeta": {
+            "dataType": "string",
+            "isSearchable": true,
+            "isShownByDefault": true,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "InputText",
+            "libName": "base"
+         }
+      },
+      "plannedEndDt": {
+         "id": "plannedEndDt",
+         "label": "Planned end date",
+         "tableMeta": {
+            "dataType": "date",
+            "isSearchable": true,
+            "isShownByDefault": true,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "Calendar",
+            "libName": "base"
+         }
+      },
+      "plannedStartDt": {
+         "id": "plannedStartDt",
+         "label": "Planned start date",
+         "tableMeta": {
+            "dataType": "date",
+            "isSearchable": true,
+            "isShownByDefault": true,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "Calendar",
+            "libName": "base"
+         }
+      },
+      "reviewAttachments": {
+         "id": "reviewAttachments",
+         "label": "Review documentation - attachments",
+         "type": {
+            "compName": "RGFAttachments",
+            "libName": "base"
+         }
+      },
+      "reviewComments": {
+         "id": "reviewComments",
+         "label": "Review comments",
+         "props": {
+            "commentEditMode": "editableByOwner"
+         },
+         "type": {
+            "compName": "Comments",
+            "libName": "base"
+         }
+      },
+      "reviewLinks": {
+         "id": "reviewLinks",
+         "label": "Review documentation - links",
+         "type": {
+            "compName": "Links",
+            "libName": "base"
+         }
+      },
+      "reviewStatus": {
+         "id": "reviewStatus",
+         "label": "Review status",
+         "props": {
+            "options": [
+               {
+                  "label": "Draft",
+                  "value": "CREATE"
+               },
+               {
+                  "label": "Edit",
+                  "value": "CREATED"
+               },
+               {
+                  "label": "Under review",
+                  "value": "UNDER_REVIEW"
+               },
+               {
+                  "label": "Submitted for full scope validation",
+                  "value": "SUBMITTED_FOR_FSV"
+               },
+               {
+                  "label": "Full scope validation complete",
+                  "value": "FULL_SCOPE_VALIDATION_COMPLETED"
+               },
+               {
+                  "label": "Manage non-critical issues",
+                  "value": "MANAGE_NON_RED_ISSUES"
+               },
+               {
+                  "label": "Manage critical issues",
+                  "value": "MANAGE_RED_ISSUES"
+               },
+               {
+                  "label": "Validation complete",
+                  "value": "VALIDATION_COMPLETED"
+               }
+            ]
+         },
+         "tableMeta": {
+            "dataType": "string",
+            "isSearchable": true,
+            "isShownByDefault": true,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "Dropdown",
+            "libName": "base"
+         }
+      },
+      "reviewType": {
+         "id": "reviewType",
+         "label": "Review type",
+         "props": {
+            "options": [
+               {
+                  "label": "Annual Review",
+                  "value": "AR"
+               },
+               {
+                  "label": "Full scope validation",
+                  "value": "FSV"
+               },
+               {
+                  "label": "Model monitoring and maintenance",
+                  "value": "MMM"
+               },
+               {
+                  "label": "Model performance review",
+                  "value": "MPV"
+               },
+               {
+                  "label": "Other",
+                  "value": "OTH"
+               }
+            ]
+         },
+         "tableMeta": {
+            "isSearchable": true,
+            "isShownByDefault": true,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "Dropdown",
+            "libName": "base"
+         }
+      },
+      "validationRating": {
+         "id": "validationRating",
+         "label": "Validation outcome",
+         "props": {
+            "colors": [
+               {
+                  "color": "#ff4d4d",
+                  "value": "RED"
+               },
+               {
+                  "color": "#ffb829",
+                  "value": "YELLOW"
+               },
+               {
+                  "color": "#0eaa18",
+                  "value": "GREEN"
+               },
+               {
+                  "color": "#b1b8c3",
+                  "value": "INPROGRESS"
+               }
+            ],
+            "options": [
+               {
+                  "label": "Unfit for intended use",
+                  "value": "RED"
+               },
+               {
+                  "label": "Fit for intended use with conditions",
+                  "value": "YELLOW"
+               },
+               {
+                  "label": "Fit for intended use",
+                  "value": "GREEN"
+               },
+               {
+                  "label": "Not yet rated",
+                  "value": "INPROGRESS"
+               }
+            ]
+         },
+         "tableMeta": {
+            "isSearchable": false,
+            "isShownByDefault": false,
+            "isSortable": false
+         },
+         "type": {
+            "compName": "ColorDropdown",
+            "libName": "base"
+         }
+      }
+   },
+   "id": "ModelReview",
+   "nameField": "name",
+   "relationships": {
+      "modelReview_finding": {
+         "cardinality": "many",
+         "label": "Findings",
+         "sourceLabel": "Model Review",
+         "sourceLabelPlural": "Model Reviews",
+         "sourceName": "foundModelReviews",
+         "sourceType": "ModelReview",
+         "targetLabel": "Finding",
+         "targetLabelPlural": "Findings",
+         "targetName": "linkedFindings",
+         "targetType": "Finding",
+         "type": "lookup"
+      },
+      "modelReview_modelReview": {
+         "cardinality": "many",
+         "sourceLabel": "Related Model Review",
+         "sourceLabelPlural": "Related Model Reviews",
+         "sourceName": "otherLinkedReviews",
+         "sourceType": "ModelReview",
+         "targetLabel": "Related Model Review",
+         "targetLabelPlural": "Related Model Reviews",
+         "targetName": "linkedReviews",
+         "targetType": "ModelReview",
+         "type": "lookup"
+      },
+      "modelReview_modelTeam": {
+         "cardinality": "many",
+         "groupId": "MRMModelingTeam",
+         "label": "Modeling Team",
+         "sourceLabel": "Model Review",
+         "sourceLabelPlural": "Model Reviews",
+         "sourceName": "modelreviewTeam",
+         "sourceType": "ModelReview",
+         "targetLabel": "Modeling Team",
+         "targetLabelPlural": "Modeling Team",
+         "targetName": "modelTeam",
+         "targetType": "User",
+         "type": "lookup"
+      },
+      "modelReview_mrmg": {
+         "cardinality": "many",
+         "groupId": "MRMMRMG",
+         "label": "Model Risk Management Group",
+         "sourceLabel": "Model Review",
+         "sourceLabelPlural": "Model Reviews",
+         "sourceName": "modelreviewMRMG",
+         "sourceType": "ModelReview",
+         "targetLabel": "Model Risk Management Group",
+         "targetLabelPlural": "Model Risk Management Group",
+         "targetName": "mrmgUsers",
+         "targetType": "User",
+         "type": "lookup"
+      },
+      "modelReview_validator": {
+         "cardinality": "many",
+         "groupId": "MRMModelValidators",
+         "label": "Model Validators",
+         "sourceLabel": "Model Review Validation",
+         "sourceLabelPlural": "Model Review Validations",
+         "sourceName": "validatedModelReviews",
+         "sourceType": "ModelReview",
+         "targetLabel": "Model Validator",
+         "targetLabelPlural": "Model Validators",
+         "targetName": "validators",
+         "targetType": "User",
+         "type": "lookup"
+      },
+      "model_modelReview": {
+         "cardinality": "many",
+         "label": "Model Reviews",
+         "sourceLabel": "Model",
+         "sourceLabelPlural": "Models",
+         "sourceName": "linked_Models",
+         "sourceType": "Model",
+         "targetLabel": "Model Review",
+         "targetLabelPlural": "Model Reviews",
+         "targetName": "linked_Reviews",
+         "targetType": "ModelReview",
+         "type": "lookup"
+      }
+   },
+   "searchable": true,
+   "security": {
+      "actions": {
+         "edit": false,
+         "execute": false,
+         "view": true
+      },
+      "allowSharing": true,
+      "useHierarchy": true
+   },
+   "streamAPI": true
+}

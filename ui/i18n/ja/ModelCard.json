@@ -1,0 +1,8 @@
+{
+   "ModelCard.library.label.base.Image.Image.label": "イメージ",
+   "ModelCard.library.label.base.Image.Image_1.label": "イメージ",
+   "ModelCard.library.label.base.ReadonlyFieldWidget.multiple_linked_models_msg.label": "このモデルは、SAS Model Risk Managementの複数のモデルにリンクされています。",
+   "ModelCard.library.label.base.ReadonlyFieldWidget.no_linked_models_msg.label": "このモデルは、SAS Model Risk Managementのどのモデルにもリンクされていません。",
+   "ModelCard.library.label.base.Template.Template.label": "テンプレートページ",
+   "ModelCard.library.label.base.Template.model_card.label": "テンプレートページ"
+}

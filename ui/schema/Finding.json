@@ -1,0 +1,540 @@
+{
+   "apiName": "findings",
+   "bulkAPI": true,
+   "fields": {
+      "action_plan_assessment": {
+         "id": "action_plan_assessment",
+         "label": "Action plan assessment",
+         "props": {},
+         "tableMeta": {},
+         "type": {
+            "compName": "InputTextarea",
+            "libName": "base"
+         }
+      },
+      "action_plan_description": {
+         "id": "action_plan_description",
+         "label": "Describe the action plan",
+         "props": {},
+         "tableMeta": {},
+         "type": {
+            "compName": "InputTextarea",
+            "libName": "base"
+         }
+      },
+      "additional_comments": {
+         "id": "additional_comments",
+         "label": "Additional comments",
+         "props": {
+            "commentEditMode": "editableByOwner"
+         },
+         "tableMeta": {},
+         "type": {
+            "compName": "Comments",
+            "libName": "base"
+         }
+      },
+      "additional_documentation": {
+         "id": "additional_documentation",
+         "label": "Supporting documentation",
+         "props": {},
+         "tableMeta": {
+            "isSearchable": false,
+            "isShownByDefault": false,
+            "isSortable": false
+         },
+         "type": {
+            "compName": "RGFAttachments",
+            "libName": "base"
+         }
+      },
+      "additional_links": {
+         "id": "additional_links",
+         "label": "Finding-related links",
+         "props": {},
+         "tableMeta": {},
+         "type": {
+            "compName": "Links",
+            "libName": "base"
+         }
+      },
+      "category": {
+         "id": "category",
+         "label": "Category",
+         "props": {
+            "options": [
+               {
+                  "label": "Not applicable",
+                  "value": "NA"
+               },
+               {
+                  "label": "Data integrity",
+                  "value": "DATA_INTEGRITY"
+               },
+               {
+                  "label": "Model documentation",
+                  "value": "MODEL_DOCUMENTATION"
+               },
+               {
+                  "label": "Model methodology",
+                  "value": "MODEL_METHODOLOGY"
+               },
+               {
+                  "label": "Model usage",
+                  "value": "MODEL_USAGE"
+               },
+               {
+                  "label": "Ongoing model review",
+                  "value": "MODEL_REVIEW"
+               },
+               {
+                  "label": "Ongoing performance tracking alert",
+                  "value": "PERFORMANCE_TRACKING"
+               },
+               {
+                  "label": "Process improvement",
+                  "value": "PROCESS_IMPROVEMENT"
+               },
+               {
+                  "label": "Usage validation",
+                  "value": "USAGE_VALIDATION"
+               }
+            ]
+         },
+         "tableMeta": {
+            "isSortable": false
+         },
+         "type": {
+            "compName": "Dropdown",
+            "libName": "base"
+         }
+      },
+      "createdBy": {
+         "id": "createdBy",
+         "label": "Creator",
+         "props": {},
+         "tableMeta": {
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "InputText",
+            "libName": "base"
+         }
+      },
+      "creationTimeStamp": {
+         "id": "creationTimeStamp",
+         "label": "Date created",
+         "props": {
+            "showTime": true
+         },
+         "tableMeta": {
+            "dataType": "date",
+            "isSearchable": true,
+            "isShownByDefault": true,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "Calendar",
+            "libName": "base"
+         }
+      },
+      "current_due_date": {
+         "id": "current_due_date",
+         "label": "Revised due date",
+         "props": {
+            "showTime": false
+         },
+         "tableMeta": {
+            "isSearchable": false,
+            "isShownByDefault": true,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "Calendar",
+            "libName": "base"
+         }
+      },
+      "default": {
+         "id": "default",
+         "label": "Default classification",
+         "props": {},
+         "tableMeta": {
+            "isSearchable": false,
+            "isShownByDefault": false,
+            "isSortable": false
+         },
+         "type": {
+            "compName": "RGFClassification",
+            "libName": "base"
+         }
+      },
+      "description": {
+         "id": "description",
+         "label": "Finding description",
+         "tableMeta": {
+            "dataType": "string",
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "InputTextarea",
+            "libName": "base"
+         }
+      },
+      "modifiedBy": {
+         "id": "modifiedBy",
+         "label": "Last editor",
+         "props": {},
+         "tableMeta": {
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "InputText",
+            "libName": "base"
+         }
+      },
+      "modifiedTimeStamp": {
+         "id": "modifiedTimeStamp",
+         "label": "Date modified",
+         "props": {
+            "showTime": true
+         },
+         "tableMeta": {
+            "isSearchable": false,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "Calendar",
+            "libName": "base"
+         }
+      },
+      "name": {
+         "id": "name",
+         "label": "Finding name",
+         "tableMeta": {
+            "dataType": "string",
+            "isSearchable": true,
+            "isShownByDefault": true,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "InputText",
+            "libName": "base"
+         }
+      },
+      "objectId": {
+         "id": "objectId",
+         "label": "Finding ID",
+         "tableMeta": {
+            "dataType": "string",
+            "isSearchable": true,
+            "isShownByDefault": true,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "InputText",
+            "libName": "base"
+         }
+      },
+      "original_due_date": {
+         "id": "original_due_date",
+         "label": "Original due date",
+         "props": {},
+         "tableMeta": {},
+         "type": {
+            "compName": "Calendar",
+            "libName": "base"
+         }
+      },
+      "other_validation_activity": {
+         "id": "other_validation_activity",
+         "label": "Describe the validation activity",
+         "props": {},
+         "tableMeta": {},
+         "type": {
+            "compName": "InputText",
+            "libName": "base"
+         }
+      },
+      "recommended_resolution": {
+         "id": "recommended_resolution",
+         "label": "Recommended resolution",
+         "tableMeta": {
+            "dataType": "string",
+            "isSearchable": true,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "InputTextarea",
+            "libName": "base"
+         }
+      },
+      "resolved_on": {
+         "id": "resolved_on",
+         "label": "Date resolved",
+         "props": {
+            "showTime": false
+         },
+         "tableMeta": {
+            "isSearchable": false,
+            "isShownByDefault": false,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "Calendar",
+            "libName": "base"
+         }
+      },
+      "severity_tier": {
+         "id": "severity_tier",
+         "label": "Severity tier",
+         "props": {
+            "colors": [
+               {
+                  "color": "#dd5757",
+                  "value": "CRITICAL"
+               },
+               {
+                  "color": "#f88325",
+                  "value": "HIGH"
+               },
+               {
+                  "color": "#ffcc32",
+                  "value": "MODERATE"
+               },
+               {
+                  "color": "#15b57b",
+                  "value": "LOW"
+               }
+            ],
+            "options": [
+               {
+                  "label": "Critical",
+                  "value": "CRITICAL"
+               },
+               {
+                  "label": "High",
+                  "value": "HIGH"
+               },
+               {
+                  "label": "Moderate",
+                  "value": "MODERATE"
+               },
+               {
+                  "label": "Low",
+                  "value": "LOW"
+               }
+            ]
+         },
+         "tableMeta": {
+            "dataType": "string",
+            "isSearchable": true,
+            "isShownByDefault": true,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "ColorDropdown",
+            "libName": "base"
+         }
+      },
+      "status": {
+         "id": "status",
+         "label": "Finding status",
+         "props": {
+            "options": [
+               {
+                  "label": "Open",
+                  "value": "OPEN"
+               },
+               {
+                  "label": "Closed",
+                  "value": "CLOSED"
+               }
+            ]
+         },
+         "tableMeta": {
+            "dataType": "string",
+            "isSearchable": true,
+            "isShownByDefault": true,
+            "isSortable": true
+         },
+         "type": {
+            "compName": "Dropdown",
+            "libName": "base"
+         }
+      },
+      "validation_activity": {
+         "id": "validation_activity",
+         "label": "Validation activity",
+         "props": {
+            "options": [
+               {
+                  "label": "Not applicable",
+                  "value": "NA"
+               },
+               {
+                  "label": "Back testing",
+                  "value": "BACK_TESTING"
+               },
+               {
+                  "label": "Benchmarking",
+                  "value": "BENCHMARKING"
+               },
+               {
+                  "label": "Data evaluation",
+                  "value": "DATA_EVALUATION"
+               },
+               {
+                  "label": "Documentation completeness",
+                  "value": "DOC_COMPLETE"
+               },
+               {
+                  "label": "General ongoing monitoring",
+                  "value": "ONGOING_MONITORING"
+               },
+               {
+                  "label": "Model limitations and assumptions review",
+                  "value": "MODEL_REVIEW"
+               },
+               {
+                  "label": "Model variable assessment",
+                  "value": "VAR_ASSESSMENT"
+               },
+               {
+                  "label": "Output analysis",
+                  "value": "OUTPUT_ANALYSIS"
+               },
+               {
+                  "label": "Overall conceptual soundness",
+                  "value": "CONCEPTUAL_SOUNDNESS"
+               },
+               {
+                  "label": "Override analysis",
+                  "value": "OVERRIDE_ANALYSIS"
+               },
+               {
+                  "label": "Process verification",
+                  "value": "PROCESS_VERIFICATION"
+               },
+               {
+                  "label": "Sensitivity analysis",
+                  "value": "SENSITIVITY_ANALYSIS"
+               },
+               {
+                  "label": "Other",
+                  "value": "OTHER"
+               }
+            ]
+         },
+         "tableMeta": {},
+         "type": {
+            "compName": "Dropdown",
+            "libName": "base"
+         }
+      }
+   },
+   "id": "Finding",
+   "nameField": "name",
+   "relationships": {
+      "finding_approver": {
+         "cardinality": "many",
+         "groupId": "MRMUsers",
+         "label": "Approvers",
+         "sourceLabel": "Finding approved",
+         "sourceLabelPlural": "Findings approved",
+         "sourceName": "findings_approved",
+         "sourceType": "Finding",
+         "targetLabel": "Approver",
+         "targetLabelPlural": "Approvers",
+         "targetName": "approvers",
+         "targetType": "User",
+         "type": "lookup"
+      },
+      "finding_initiator": {
+         "cardinality": "many",
+         "groupId": "MRMUsers",
+         "label": "Initiators",
+         "sourceLabel": "Finding initiated",
+         "sourceLabelPlural": "Findings initiated",
+         "sourceName": "findings_initiated",
+         "sourceType": "Finding",
+         "targetLabel": "Initiator",
+         "targetLabelPlural": "Initiators",
+         "targetName": "initiator",
+         "targetType": "User",
+         "type": "lookup"
+      },
+      "finding_lead": {
+         "cardinality": "many",
+         "groupId": "MRMUsers",
+         "label": "Remediation leads",
+         "sourceLabel": "Finding remediated",
+         "sourceLabelPlural": "Findings remediated",
+         "sourceName": "findings_remediated",
+         "sourceType": "Finding",
+         "targetLabel": "Remediation lead",
+         "targetLabelPlural": "Remediation leads",
+         "targetName": "remediation_leads",
+         "targetType": "User",
+         "type": "lookup"
+      },
+      "finding_owner": {
+         "cardinality": "many",
+         "groupId": "MRMUsers",
+         "label": "Owners",
+         "sourceLabel": "Finding owned",
+         "sourceLabelPlural": "Findings owned",
+         "sourceName": "findings_owned",
+         "sourceType": "Finding",
+         "targetLabel": "Owner",
+         "targetLabelPlural": "Owners",
+         "targetName": "owners",
+         "targetType": "User",
+         "type": "lookup"
+      },
+      "modelReview_finding": {
+         "cardinality": "many",
+         "label": "Findings",
+         "sourceLabel": "Model Review",
+         "sourceLabelPlural": "Model Reviews",
+         "sourceName": "foundModelReviews",
+         "sourceType": "ModelReview",
+         "targetLabel": "Finding",
+         "targetLabelPlural": "Findings",
+         "targetName": "linkedFindings",
+         "targetType": "Finding",
+         "type": "lookup"
+      },
+      "model_finding": {
+         "cardinality": "many",
+         "label": "Models",
+         "sourceLabel": "Model",
+         "sourceLabelPlural": "Models",
+         "sourceName": "foundModels",
+         "sourceType": "Model",
+         "targetLabel": "Finding",
+         "targetLabelPlural": "Findings",
+         "targetName": "linkedFindings",
+         "targetType": "Finding",
+         "type": "lookup"
+      }
+   },
+   "searchable": true,
+   "security": {
+      "actions": {
+         "edit": false,
+         "execute": false,
+         "view": true
+      },
+      "allowSharing": true,
+      "useHierarchy": true
+   },
+   "streamAPI": true
+}

@@ -1,0 +1,940 @@
+{
+   "layouts": {
+      "GroupableContainer": [
+         [
+            {
+               "h": 50,
+               "i": "name",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 6,
+               "x": 0,
+               "y": 0
+            },
+            {
+               "h": 50,
+               "i": "objectId",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 6,
+               "x": 6,
+               "y": 0
+            },
+            {
+               "h": 100,
+               "i": "description",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 6,
+               "x": 0,
+               "y": 52
+            },
+            {
+               "h": 100,
+               "i": "recommended_resolution",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 6,
+               "x": 6,
+               "y": 52
+            }
+         ]
+      ],
+      "GroupableContainer_1": [
+         [
+            {
+               "h": 100,
+               "i": "action_plan_assessment",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 12,
+               "x": 0,
+               "y": 1
+            },
+            {
+               "h": 100,
+               "i": "action_plan_description",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 12,
+               "x": 0,
+               "y": 115
+            }
+         ]
+      ],
+      "GroupableContainer_2": [
+         [
+            {
+               "h": 1,
+               "i": "Image",
+               "minH": 1,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 12,
+               "x": 0,
+               "y": 0
+            }
+         ]
+      ],
+      "GroupableContainer_5": [
+         [
+            {
+               "h": 50,
+               "i": "original_due_date",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 5,
+               "x": 6,
+               "y": 0
+            },
+            {
+               "h": 50,
+               "i": "current_due_date",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 5,
+               "x": 6,
+               "y": 52
+            },
+            {
+               "h": 50,
+               "i": "resolved_on",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 5,
+               "x": 6,
+               "y": 104
+            },
+            {
+               "h": 50,
+               "i": "category",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 6,
+               "x": 0,
+               "y": 52
+            },
+            {
+               "h": 50,
+               "i": "severity_tier",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 6,
+               "x": 0,
+               "y": 0
+            },
+            {
+               "h": 50,
+               "i": "status",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 6,
+               "x": 0,
+               "y": 105
+            }
+         ]
+      ],
+      "GroupableContainer_7": [
+         []
+      ],
+      "TabView": [
+         [
+            {
+               "h": 220,
+               "i": "GroupableContainer",
+               "minH": 50,
+               "minW": 2,
+               "moved": false,
+               "static": false,
+               "w": 6,
+               "x": 0,
+               "y": 0
+            },
+            {
+               "h": 220,
+               "i": "GroupableContainer_5",
+               "minH": 50,
+               "minW": 2,
+               "moved": false,
+               "static": false,
+               "w": 5,
+               "x": 6,
+               "y": 0
+            },
+            {
+               "h": 260,
+               "i": "GroupableContainer_1",
+               "minH": 50,
+               "minW": 2,
+               "moved": false,
+               "static": false,
+               "w": 6,
+               "x": 0,
+               "y": 221
+            }
+         ],
+         [
+            {
+               "h": 150,
+               "i": "initiator",
+               "minH": 50,
+               "minW": 4,
+               "moved": false,
+               "static": false,
+               "w": 6,
+               "x": 0,
+               "y": 71
+            },
+            {
+               "h": 150,
+               "i": "owners",
+               "minH": 50,
+               "minW": 4,
+               "moved": false,
+               "static": false,
+               "w": 6,
+               "x": 6,
+               "y": 71
+            },
+            {
+               "h": 150,
+               "i": "remediation_leads",
+               "minH": 50,
+               "minW": 4,
+               "moved": false,
+               "static": false,
+               "w": 6,
+               "x": 0,
+               "y": 242
+            },
+            {
+               "h": 150,
+               "i": "approvers",
+               "minH": 50,
+               "minW": 4,
+               "moved": false,
+               "static": false,
+               "w": 6,
+               "x": 6,
+               "y": 242
+            },
+            {
+               "h": 50,
+               "i": "createdBy",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 3,
+               "x": 0,
+               "y": 0
+            },
+            {
+               "h": 50,
+               "i": "creationTimeStamp",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 2,
+               "x": 3,
+               "y": 0
+            },
+            {
+               "h": 50,
+               "i": "modifiedBy",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 3,
+               "x": 6,
+               "y": 0
+            },
+            {
+               "h": 50,
+               "i": "modifiedTimeStamp",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 2,
+               "x": 9,
+               "y": 0
+            }
+         ],
+         [
+            {
+               "h": 60,
+               "i": "foundModels",
+               "minH": 50,
+               "minW": 4,
+               "moved": false,
+               "static": false,
+               "w": 12,
+               "x": 0,
+               "y": 20
+            },
+            {
+               "h": 60,
+               "i": "foundModelReviews",
+               "minH": 50,
+               "minW": 4,
+               "moved": false,
+               "static": false,
+               "w": 12,
+               "x": 0,
+               "y": 106
+            }
+         ],
+         [
+            {
+               "h": 334,
+               "i": "additional_comments",
+               "minH": 236,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 6,
+               "x": 0,
+               "y": 327
+            },
+            {
+               "h": 218,
+               "i": "additional_documentation",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 6,
+               "x": 0,
+               "y": 22
+            },
+            {
+               "h": 218,
+               "i": "additional_links",
+               "minH": 54,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 6,
+               "x": 6,
+               "y": 22
+            },
+            {
+               "h": 50,
+               "i": "GroupableContainer_2",
+               "minH": 50,
+               "minW": 2,
+               "moved": false,
+               "static": false,
+               "w": 12,
+               "x": 0,
+               "y": 263
+            }
+         ]
+      ],
+      "base": [
+         {
+            "h": 125,
+            "i": "classifications_accordion",
+            "minH": 50,
+            "minW": 2,
+            "moved": false,
+            "static": false,
+            "w": 12,
+            "x": 0,
+            "y": 120
+         },
+         {
+            "h": 575,
+            "i": "TabView",
+            "minH": 50,
+            "minW": 2,
+            "moved": false,
+            "static": false,
+            "w": 12,
+            "x": 0,
+            "y": 269
+         },
+         {
+            "h": 48,
+            "i": "finding_name_header",
+            "minH": 48,
+            "minW": 1,
+            "moved": false,
+            "static": false,
+            "w": 5,
+            "x": 0,
+            "y": 30
+         },
+         {
+            "h": 70,
+            "i": "status_container",
+            "minH": 50,
+            "minW": 2,
+            "moved": false,
+            "static": false,
+            "w": 7,
+            "x": 5,
+            "y": 50
+         },
+         {
+            "h": 50,
+            "i": "button_container",
+            "minH": 50,
+            "minW": 2,
+            "moved": false,
+            "static": false,
+            "w": 7,
+            "x": 5,
+            "y": 0
+         }
+      ],
+      "button_container": [
+         [
+            {
+               "h": 26,
+               "i": "save_button",
+               "minH": 26,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 2,
+               "x": 10,
+               "y": 0
+            }
+         ]
+      ],
+      "classifications_accordion": [
+         [
+            {
+               "h": 190,
+               "i": "default",
+               "minH": 186,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 12,
+               "x": 0,
+               "y": 0
+            }
+         ]
+      ],
+      "status_container": [
+         [
+            {
+               "h": 50,
+               "i": "status_1",
+               "minH": 50,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 5,
+               "x": 7,
+               "y": 0
+            }
+         ]
+      ]
+   },
+   "page": {
+      "entrypoints": {
+         "copy": {
+            "name": "onFindingCopyLoad"
+         },
+         "draft": {
+            "name": "onFindingDraftLoad"
+         },
+         "draftNewRelated": {
+            "name": "onFindingDraftNewRelatedLoad"
+         },
+         "edit": {
+            "name": "onFindingEditLoad"
+         }
+      },
+      "events": {
+         "onAnyEvent": {
+            "name": "onAnyEvent"
+         },
+         "onTabClose": {
+            "name": "onTabClose"
+         },
+         "open": {
+            "name": "on Finding Load"
+         }
+      },
+      "props": {
+         "description": "The finding page contains issues discovered during various model governance tasks.",
+         "icon": "base://ISSUE",
+         "id": "Finding",
+         "label": "Finding"
+      }
+   },
+   "structure": {
+      "GroupableContainer": [
+         [
+            {
+               "compName": "InputText",
+               "events": {
+                  "onChange": {
+                     "name": "updateName"
+                  }
+               },
+               "fieldName": "name",
+               "id": "name",
+               "libName": "base",
+               "parentId": "GroupableContainer",
+               "props": {}
+            },
+            {
+               "compName": "InputText",
+               "fieldName": "objectId",
+               "id": "objectId",
+               "libName": "base",
+               "parentId": "GroupableContainer",
+               "props": {}
+            },
+            {
+               "compName": "InputTextarea",
+               "fieldName": "description",
+               "id": "description",
+               "libName": "base",
+               "parentId": "GroupableContainer",
+               "props": {
+                  "rows": 4
+               }
+            },
+            {
+               "compName": "InputTextarea",
+               "fieldName": "recommended_resolution",
+               "id": "recommended_resolution",
+               "libName": "base",
+               "parentId": "GroupableContainer",
+               "props": {
+                  "rows": 4
+               }
+            }
+         ]
+      ],
+      "GroupableContainer_1": [
+         [
+            {
+               "compName": "InputTextarea",
+               "fieldName": "action_plan_assessment",
+               "id": "action_plan_assessment",
+               "libName": "base",
+               "parentId": "GroupableContainer_1",
+               "props": {
+                  "rows": 4
+               }
+            },
+            {
+               "compName": "InputTextarea",
+               "fieldName": "action_plan_description",
+               "id": "action_plan_description",
+               "libName": "base",
+               "parentId": "GroupableContainer_1",
+               "props": {
+                  "rows": 4
+               }
+            }
+         ]
+      ],
+      "GroupableContainer_2": [
+         [
+            {
+               "compName": "Image",
+               "id": "Image",
+               "label": "appbuilder.toolboxitem.image.title",
+               "libName": "base",
+               "parentId": "GroupableContainer_2",
+               "props": {
+                  "background": "ced2d9"
+               }
+            }
+         ]
+      ],
+      "GroupableContainer_5": [
+         [
+            {
+               "compName": "Calendar",
+               "events": {
+                  "onChange": {
+                     "name": "copyDueDate"
+                  }
+               },
+               "fieldName": "original_due_date",
+               "id": "original_due_date",
+               "libName": "base",
+               "parentId": "GroupableContainer_5",
+               "props": {}
+            },
+            {
+               "compName": "Calendar",
+               "events": {},
+               "fieldName": "current_due_date",
+               "id": "current_due_date",
+               "libName": "base",
+               "parentId": "GroupableContainer_5",
+               "props": {}
+            },
+            {
+               "compName": "Calendar",
+               "fieldName": "resolved_on",
+               "id": "resolved_on",
+               "libName": "base",
+               "parentId": "GroupableContainer_5",
+               "props": {}
+            },
+            {
+               "compName": "Dropdown",
+               "events": {},
+               "fieldName": "category",
+               "id": "category",
+               "libName": "base",
+               "parentId": "GroupableContainer_5",
+               "props": {
+                  "enableClear": true
+               }
+            },
+            {
+               "compName": "ColorDropdown",
+               "fieldName": "severity_tier",
+               "id": "severity_tier",
+               "libName": "base",
+               "parentId": "GroupableContainer_5",
+               "props": {
+                  "enableClear": true
+               }
+            },
+            {
+               "compName": "Dropdown",
+               "events": {
+                  "onChange": {
+                     "name": "updateStatus"
+                  }
+               },
+               "fieldName": "status",
+               "id": "status",
+               "libName": "base",
+               "parentId": "GroupableContainer_5",
+               "props": {
+                  "enableClear": true
+               }
+            }
+         ]
+      ],
+      "TabView": [
+         [
+            {
+               "compName": "GroupableContainer",
+               "id": "GroupableContainer",
+               "label": "appbuilder.toolboxitem.groupableContainer.title",
+               "libName": "base",
+               "parentId": "TabView",
+               "props": {
+                  "activeIndex": 0,
+                  "headers": [
+                     "default"
+                  ]
+               }
+            },
+            {
+               "compName": "GroupableContainer",
+               "id": "GroupableContainer_5",
+               "label": "appbuilder.toolboxitem.groupableContainer.title",
+               "libName": "base",
+               "parentId": "TabView",
+               "props": {
+                  "activeIndex": 0,
+                  "headers": [
+                     "default"
+                  ]
+               }
+            },
+            {
+               "compName": "GroupableContainer",
+               "id": "GroupableContainer_1",
+               "label": "appbuilder.toolboxitem.groupableContainer.title",
+               "libName": "base",
+               "parentId": "TabView",
+               "props": {
+                  "activeIndex": 0,
+                  "headers": [
+                     "default"
+                  ]
+               }
+            }
+         ],
+         [
+            {
+               "compName": "RGFRelationshipContainer",
+               "fieldName": "initiator",
+               "id": "initiator",
+               "libName": "base",
+               "parentId": "TabView",
+               "props": {}
+            },
+            {
+               "compName": "RGFRelationshipContainer",
+               "fieldName": "owners",
+               "id": "owners",
+               "libName": "base",
+               "parentId": "TabView",
+               "props": {}
+            },
+            {
+               "compName": "RGFRelationshipContainer",
+               "fieldName": "remediation_leads",
+               "id": "remediation_leads",
+               "libName": "base",
+               "parentId": "TabView",
+               "props": {}
+            },
+            {
+               "compName": "RGFRelationshipContainer",
+               "fieldName": "approvers",
+               "id": "approvers",
+               "libName": "base",
+               "parentId": "TabView",
+               "props": {}
+            },
+            {
+               "compName": "InputText",
+               "fieldName": "createdBy",
+               "id": "createdBy",
+               "libName": "base",
+               "parentId": "TabView",
+               "props": {}
+            },
+            {
+               "compName": "Calendar",
+               "fieldName": "creationTimeStamp",
+               "id": "creationTimeStamp",
+               "libName": "base",
+               "parentId": "TabView",
+               "props": {}
+            },
+            {
+               "compName": "InputText",
+               "fieldName": "modifiedBy",
+               "id": "modifiedBy",
+               "libName": "base",
+               "parentId": "TabView",
+               "props": {}
+            },
+            {
+               "compName": "Calendar",
+               "fieldName": "modifiedTimeStamp",
+               "id": "modifiedTimeStamp",
+               "libName": "base",
+               "parentId": "TabView",
+               "props": {}
+            }
+         ],
+         [
+            {
+               "compName": "RGFRelationshipContainer",
+               "events": {
+                  "getDraftLink": {
+                     "name": "getDraftLinkForNewModel"
+                  },
+                  "getEditLinkForObjectInstance": {
+                     "name": "getEditLinkForObjectInstance"
+                  }
+               },
+               "fieldName": "foundModels",
+               "id": "foundModels",
+               "libName": "base",
+               "parentId": "TabView",
+               "props": {}
+            },
+            {
+               "compName": "RGFRelationshipContainer",
+               "events": {
+                  "getDraftLink": {
+                     "name": "getDraftLinkForNewReview"
+                  },
+                  "getEditLinkForObjectInstance": {
+                     "name": "getEditLinkForObjectInstance"
+                  }
+               },
+               "fieldName": "foundModelReviews",
+               "id": "foundModelReviews",
+               "libName": "base",
+               "parentId": "TabView",
+               "props": {}
+            }
+         ],
+         [
+            {
+               "compName": "Comments",
+               "fieldName": "additional_comments",
+               "id": "additional_comments",
+               "libName": "base",
+               "parentId": "TabView",
+               "props": {}
+            },
+            {
+               "compName": "RGFAttachments",
+               "fieldName": "additional_documentation",
+               "id": "additional_documentation",
+               "libName": "base",
+               "parentId": "TabView",
+               "props": {}
+            },
+            {
+               "compName": "Links",
+               "fieldName": "additional_links",
+               "id": "additional_links",
+               "libName": "base",
+               "parentId": "TabView",
+               "props": {}
+            },
+            {
+               "compName": "GroupableContainer",
+               "id": "GroupableContainer_2",
+               "label": "appbuilder.toolboxitem.groupableContainer.title",
+               "libName": "base",
+               "parentId": "TabView",
+               "props": {
+                  "activeIndex": 0,
+                  "headers": [
+                     "default"
+                  ]
+               }
+            }
+         ]
+      ],
+      "base": [
+         {
+            "compName": "Accordion",
+            "id": "classifications_accordion",
+            "label": "appbuilder.toolboxitem.accordion.title",
+            "libName": "base",
+            "parentId": "base",
+            "props": {
+               "showOutline": true
+            }
+         },
+         {
+            "compName": "TabView",
+            "id": "TabView",
+            "label": "appbuilder.toolboxitem.tabview.title",
+            "libName": "base",
+            "parentId": "base",
+            "props": {
+               "activeIndex": 3
+            }
+         },
+         {
+            "compName": "RichText",
+            "id": "finding_name_header",
+            "label": "appbuilder.toolboxitem.richtext.title",
+            "libName": "base",
+            "parentId": "base",
+            "props": {
+               "value": ""
+            }
+         },
+         {
+            "compName": "GroupableContainer",
+            "id": "status_container",
+            "label": "appbuilder.toolboxitem.groupableContainer.title",
+            "libName": "base",
+            "parentId": "base",
+            "props": {
+               "activeIndex": 0,
+               "headers": [
+                  "default"
+               ]
+            }
+         },
+         {
+            "compName": "GroupableContainer",
+            "id": "button_container",
+            "label": "appbuilder.toolboxitem.groupableContainer.title",
+            "libName": "base",
+            "parentId": "base",
+            "props": {
+               "activeIndex": 0,
+               "headers": [
+                  "default"
+               ]
+            }
+         }
+      ],
+      "button_container": [
+         [
+            {
+               "compName": "Button",
+               "events": {
+                  "click": {
+                     "name": "saveFinding"
+                  }
+               },
+               "id": "save_button",
+               "label": "appbuilder.toolboxitem.button.title",
+               "libName": "base",
+               "parentId": "button_container",
+               "props": {
+                  "align": "start"
+               }
+            }
+         ]
+      ],
+      "classifications_accordion": [
+         [
+            {
+               "compName": "RGFClassification",
+               "fieldName": "default",
+               "id": "default",
+               "libName": "base",
+               "parentId": "classifications_accordion",
+               "props": {}
+            }
+         ]
+      ],
+      "status_container": [
+         [
+            {
+               "compName": "Dropdown",
+               "fieldName": "status",
+               "id": "status_1",
+               "libName": "base",
+               "parentId": "status_container",
+               "props": {
+                  "align": "end",
+                  "colon": true,
+                  "displayAsText": true
+               }
+            }
+         ]
+      ]
+   }
+}

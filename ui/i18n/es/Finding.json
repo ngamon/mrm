@@ -1,0 +1,11 @@
+{
+   "Finding.library.label.base.Accordion.classifications_accordion.0.title": "Classifications",
+   "Finding.library.label.base.Button.save_button.label": "Save",
+   "Finding.library.label.base.TabView.TabView.0.title": "Details",
+   "Finding.library.label.base.TabView.TabView.1.title": "Team",
+   "Finding.library.label.base.TabView.TabView.2.title": "Action Plan",
+   "Finding.library.label.base.TabView.TabView.3.title": "Related Objects",
+   "Finding.library.label.base.TabView.TabView.4.title": "Notes and Comments",
+   "Finding.schema.name.plural.title": "Findings",
+   "Finding.schema.name.singular.title": "Finding"
+}

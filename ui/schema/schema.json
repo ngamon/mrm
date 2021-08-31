@@ -1,0 +1,9 @@
+{
+   "id": "MRM",
+   "objects": [
+      "Finding",
+      "Model",
+      "ModelReview",
+      "User"
+   ]
+}

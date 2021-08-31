@@ -1,0 +1,216 @@
+{
+   "layouts": {
+      "base": [
+         {
+            "h": 808,
+            "i": "card_layout_container",
+            "minH": 50,
+            "minW": 2,
+            "moved": false,
+            "static": false,
+            "w": 12,
+            "x": 0,
+            "y": 0
+         }
+      ],
+      "card_layout_container": [
+         [
+            {
+               "h": 755,
+               "i": "Template",
+               "minH": 26,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 12,
+               "x": 0,
+               "y": 0
+            }
+         ],
+         [
+            {
+               "h": 39,
+               "i": "no_linked_models_msg",
+               "minH": 24,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 7,
+               "x": 4,
+               "y": 349
+            },
+            {
+               "h": 237,
+               "i": "Image",
+               "minH": 1,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 5,
+               "x": 3,
+               "y": 107
+            },
+            {
+               "h": 75,
+               "i": "Image_2",
+               "minH": 1,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 12,
+               "x": 0,
+               "y": 28
+            }
+         ],
+         [
+            {
+               "h": 39,
+               "i": "multiple_linked_models_msg",
+               "minH": 24,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 7,
+               "x": 4,
+               "y": 314
+            },
+            {
+               "h": 237,
+               "i": "Image_1",
+               "minH": 1,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 5,
+               "x": 3,
+               "y": 77
+            },
+            {
+               "h": 75,
+               "i": "Image_3",
+               "minH": 1,
+               "minW": 1,
+               "moved": false,
+               "static": false,
+               "w": 12,
+               "x": 0,
+               "y": 0
+            }
+         ]
+      ]
+   },
+   "page": {
+      "entrypoints": {
+         "model": {
+            "name": "onMRMCardLoad"
+         },
+         "modelRepository": {
+            "name": "onModelRepoLoad"
+         }
+      },
+      "events": {
+         "onAnyEvent": {},
+         "onTabClose": {}
+      },
+      "props": {
+         "description": "",
+         "icon": "",
+         "id": "ModelCard",
+         "label": "Model Card"
+      }
+   },
+   "structure": {
+      "base": [
+         {
+            "compName": "GroupableContainer",
+            "id": "card_layout_container",
+            "label": "appbuilder.toolboxitem.groupableContainer.title",
+            "libName": "base",
+            "parentId": "base",
+            "props": {
+               "activeIndex": 2,
+               "headers": [
+                  "default",
+                  "no_linked_models",
+                  "multiple_linked_models"
+               ]
+            }
+         }
+      ],
+      "card_layout_container": [
+         [
+            {
+               "compName": "Template",
+               "id": "Template",
+               "label": "appbuilder.toolboxitem.template.title",
+               "libName": "base",
+               "parentId": "card_layout_container",
+               "props": {
+                  "combineObjects": true,
+                  "pageId": "ModelScorecard"
+               }
+            }
+         ],
+         [
+            {
+               "compName": "ReadonlyFieldWidget",
+               "id": "no_linked_models_msg",
+               "label": "appbuilder.toolboxitem.readonlyfield.title",
+               "libName": "base",
+               "parentId": "card_layout_container",
+               "props": {
+                  "boldLabel": true
+               }
+            },
+            {
+               "compName": "Image",
+               "id": "Image",
+               "label": "appbuilder.toolboxitem.image.title",
+               "libName": "base",
+               "parentId": "card_layout_container",
+               "props": {
+                  "imageUri": "base://ZeroStateReport"
+               }
+            },
+            {
+               "compName": "Image",
+               "id": "Image_2",
+               "label": "appbuilder.toolboxitem.image.title",
+               "libName": "base",
+               "parentId": "card_layout_container",
+               "props": {}
+            }
+         ],
+         [
+            {
+               "compName": "ReadonlyFieldWidget",
+               "id": "multiple_linked_models_msg",
+               "label": "appbuilder.toolboxitem.readonlyfield.title",
+               "libName": "base",
+               "parentId": "card_layout_container",
+               "props": {
+                  "boldLabel": true
+               }
+            },
+            {
+               "compName": "Image",
+               "id": "Image_1",
+               "label": "appbuilder.toolboxitem.image.title",
+               "libName": "base",
+               "parentId": "card_layout_container",
+               "props": {
+                  "imageUri": "base://ZeroStateReport"
+               }
+            },
+            {
+               "compName": "Image",
+               "id": "Image_3",
+               "label": "appbuilder.toolboxitem.image.title",
+               "libName": "base",
+               "parentId": "card_layout_container",
+               "props": {}
+            }
+         ]
+      ]
+   }
+}

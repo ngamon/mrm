@@ -1,0 +1,8 @@
+{
+   "ModelCard.library.label.base.Image.Image.label": "Image",
+   "ModelCard.library.label.base.Image.Image_1.label": "Image",
+   "ModelCard.library.label.base.ReadonlyFieldWidget.multiple_linked_models_msg.label": "This model is linked to more than one model in SAS Model Risk Management.",
+   "ModelCard.library.label.base.ReadonlyFieldWidget.no_linked_models_msg.label": "This model is not linked to any models in SAS Model Risk Management.",
+   "ModelCard.library.label.base.Template.Template.label": "Template Page",
+   "ModelCard.library.label.base.Template.model_card.label": "Template Page"
+}

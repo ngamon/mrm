@@ -1,0 +1,12 @@
+{
+   "ModelScorecard.Model.schema.field.criticality.label": "Criticality",
+   "ModelScorecard.library.label.base.CalendarWidget.latest_validation.label": "Latest validation",
+   "ModelScorecard.library.label.base.CalendarWidget.next_validation.label": "Next validation",
+   "ModelScorecard.library.label.base.ColorDropdownWidget.latest_validation_rating.label": "Latest validation rating",
+   "ModelScorecard.library.label.base.Image.Image_1.label": "Image",
+   "ModelScorecard.library.label.base.Image.Image_3.label": "Image",
+   "ModelScorecard.library.label.base.Image.Image_4.label": "Image",
+   "ModelScorecard.library.label.base.ModelWellness.ModelWellness.label": "Overall model wellness",
+   "ModelScorecard.library.label.base.OverlayButton.OverlayButton.label": "This model has an overlay applied.",
+   "ModelScorecard.library.label.base.ReadonlyFieldWidget.days_since_last_validation.label": "Days since last validation"
+}

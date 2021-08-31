@@ -1,0 +1,49 @@
+{
+   "layouts": {
+      "base": [
+         {
+            "h": 750,
+            "i": "Template",
+            "minH": 26,
+            "minW": 1,
+            "moved": false,
+            "static": false,
+            "w": 12,
+            "x": 0,
+            "y": 3
+         }
+      ]
+   },
+   "page": {
+      "entrypoints": {
+         "onPageLoad": {
+            "name": "onPageLoad"
+         }
+      },
+      "events": {
+         "onTabClose": {}
+      },
+      "props": {
+         "description": "The inventory page for the model review object.",
+         "icon": "base://MODEL_REVIEW",
+         "id": "ModelReviews",
+         "label": "Model Reviews",
+         "tabLabel": "Model Reviews"
+      }
+   },
+   "structure": {
+      "base": [
+         {
+            "compName": "Template",
+            "id": "Template",
+            "label": "appbuilder.toolboxitem.template.title",
+            "libName": "base",
+            "parentId": "base",
+            "props": {
+               "combineObjects": true,
+               "pageId": "ObjectManagerTemplate"
+            }
+         }
+      ]
+   }
+}

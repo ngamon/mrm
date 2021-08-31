@@ -1,0 +1,13 @@
+{
+   "Finding.Finding.schema.field.status_1.label": "XFinding status'补Z",
+   "Finding.library.label.base.Accordion.classifications_accordion.0.title": "XClassifications'补Z",
+   "Finding.library.label.base.Button.save_button.label": "XSave'补Z",
+   "Finding.library.label.base.Image.Image.label": "XImage'补Z",
+   "Finding.library.label.base.RichText.finding_name_header.label": "XRich Text'补Z",
+   "Finding.library.label.base.TabView.TabView.0.title": "XDetails'补Z",
+   "Finding.library.label.base.TabView.TabView.1.title": "XTeam'补Z",
+   "Finding.library.label.base.TabView.TabView.2.title": "XRelated Objects'补Z",
+   "Finding.library.label.base.TabView.TabView.3.title": "XDocumentation'补Z",
+   "Finding.schema.name.plural.title": "XFindings'补Z",
+   "Finding.schema.name.singular.title": "XFinding'补Z"
+}
